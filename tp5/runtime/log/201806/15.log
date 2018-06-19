@@ -1,0 +1,4705 @@
+---------------------------------------------------------------
+[ 2018-06-15T11:28:57+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.181018s][ååç‡ï¼š5.52req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.51kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:28:57+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.064006s][ååç‡ï¼š15.62req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.80kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:28:58+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.063006s][ååç‡ï¼š15.87req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.80kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:28:59+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.056005s][ååç‡ï¼š17.86req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.80kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:01+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.075007s][ååç‡ï¼š13.33req/s] [å†…å­˜æ¶ˆè€—ï¼š1,453.59kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:01+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.072008s][ååç‡ï¼š13.89req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:01+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.067007s][ååç‡ï¼š14.92req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:01+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.187019s][ååç‡ï¼š5.35req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:01+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.150015s][ååç‡ï¼š6.67req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:01+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.206020s][ååç‡ï¼š4.85req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.13kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:01+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.070007s][ååç‡ï¼š14.28req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:04+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.047005s][ååç‡ï¼š21.27req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.24kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:04+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.088009s][ååç‡ï¼š11.36req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:04+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.096009s][ååç‡ï¼š10.42req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.13kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:04+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.138014s][ååç‡ï¼š7.25req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:04+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.234024s][ååç‡ï¼š4.27req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:04+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.106011s][ååç‡ï¼š9.43req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:04+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.134014s][ååç‡ï¼š7.46req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:08+08:00 ] 127.0.0.1 GET /
+[ info ] tp5.com/ [è¿è¡Œæ—¶é—´ï¼š0.068007s][ååç‡ï¼š14.70req/s] [å†…å­˜æ¶ˆè€—ï¼š1,508.32kb] [æ–‡ä»¶åŠ è½½ï¼š37]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:33+08:00 ] 127.0.0.1 GET /
+[ info ] tp5.com/ [è¿è¡Œæ—¶é—´ï¼š0.050005s][ååç‡ï¼š20.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,357.15kb] [æ–‡ä»¶åŠ è½½ï¼š35]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:35+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.056005s][ååç‡ï¼š17.86req/s] [å†…å­˜æ¶ˆè€—ï¼š1,295.97kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:35+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.062006s][ååç‡ï¼š16.13req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:35+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.061006s][ååç‡ï¼š16.39req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:35+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.157016s][ååç‡ï¼š6.37req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.13kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:35+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.168017s][ååç‡ï¼š5.95req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:35+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.122012s][ååç‡ï¼š8.20req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:29:35+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.073007s][ååç‡ï¼š13.70req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:01+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.047005s][ååç‡ï¼š21.27req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.24kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:01+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.067007s][ååç‡ï¼š14.92req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:01+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.067006s][ååç‡ï¼š14.92req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:01+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.097009s][ååç‡ï¼š10.31req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:01+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.135014s][ååç‡ï¼š7.41req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.13kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:01+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.136014s][ååç‡ï¼š7.35req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:01+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.115011s][ååç‡ï¼š8.69req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:03+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.038004s][ååç‡ï¼š26.31req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.24kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:03+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.069007s][ååç‡ï¼š14.49req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:03+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.068006s][ååç‡ï¼š14.70req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:03+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.109010s][ååç‡ï¼š9.17req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:03+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.115011s][ååç‡ï¼š8.69req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:03+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.132013s][ååç‡ï¼š7.58req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:30:03+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.169017s][ååç‡ï¼š5.92req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.13kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:31:16+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.059006s][ååç‡ï¼š16.95req/s] [å†…å­˜æ¶ˆè€—ï¼š1,448.45kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:31:17+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.057006s][ååç‡ï¼š17.54req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:31:17+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.123013s][ååç‡ï¼š8.13req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.13kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:31:59+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.056006s][ååç‡ï¼š17.86req/s] [å†…å­˜æ¶ˆè€—ï¼š1,450.37kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:32:00+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.167017s][ååç‡ï¼š5.99req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:32:00+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.114011s][ååç‡ï¼š8.77req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:32:00+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.136014s][ååç‡ï¼š7.35req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:32:00+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.280028s][ååç‡ï¼š3.57req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:32:00+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.179018s][ååç‡ï¼š5.59req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:32:26+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.068007s][ååç‡ï¼š14.70req/s] [å†…å­˜æ¶ˆè€—ï¼š1,453.93kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:32:26+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.082009s][ååç‡ï¼š12.19req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:32:26+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.116012s][ååç‡ï¼š8.62req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.13kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:32:26+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.112011s][ååç‡ï¼š8.93req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:32:26+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.210021s][ååç‡ï¼š4.76req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:32:26+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.145014s][ååç‡ï¼š6.90req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:32:26+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.114012s][ååç‡ï¼š8.77req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:33:32+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.062000s][ååç‡ï¼š16.13req/s] [å†…å­˜æ¶ˆè€—ï¼š1,452.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:33:33+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.088000s][ååç‡ï¼š11.36req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:33:33+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.074000s][ååç‡ï¼š13.51req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:33:33+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.121000s][ååç‡ï¼š8.26req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.13kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:33:33+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.067000s][ååç‡ï¼š14.93req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:33:33+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.122000s][ååç‡ï¼š8.20req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:33:33+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.132000s][ååç‡ï¼š7.58req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:07+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.074000s][ååç‡ï¼š13.51req/s] [å†…å­˜æ¶ˆè€—ï¼š1,450.69kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:07+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.083000s][ååç‡ï¼š12.05req/s] [å†…å­˜æ¶ˆè€—ï¼š1,329.80kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:07+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.140000s][ååç‡ï¼š7.14req/s] [å†…å­˜æ¶ˆè€—ï¼š1,329.80kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:07+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.239000s][ååç‡ï¼š4.18req/s] [å†…å­˜æ¶ˆè€—ï¼š1,329.88kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:07+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.099000s][ååç‡ï¼š10.10req/s] [å†…å­˜æ¶ˆè€—ï¼š1,329.80kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:07+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.303000s][ååç‡ï¼š3.30req/s] [å†…å­˜æ¶ˆè€—ï¼š1,329.80kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:15+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.060000s][ååç‡ï¼š16.67req/s] [å†…å­˜æ¶ˆè€—ï¼š1,450.49kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:15+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.206000s][ååç‡ï¼š4.85req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:15+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.093000s][ååç‡ï¼š10.75req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:15+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.271000s][ååç‡ï¼š3.69req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:15+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.324000s][ååç‡ï¼š3.09req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:15+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.249000s][ååç‡ï¼š4.02req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:19+08:00 ] 127.0.0.1 GET /index/single/index.html?author=&email=&url=http%3A%2F%2Fw3layouts.com&submit=Send
+[ info ] tp5.com/index/single/index.html?author=&email=&url=http%3A%2F%2Fw3layouts.com&submit=Send [è¿è¡Œæ—¶é—´ï¼š0.051000s][ååç‡ï¼š19.61req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.99kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+  'author' => '',
+  'email' => '',
+  'url' => 'http://w3layouts.com',
+  'submit' => 'Send',
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:19+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.169000s][ååç‡ï¼š5.92req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.41kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html?author=&email=&url=http%3A%2F%2Fw3layouts.com&submit=Send',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:19+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.061000s][ååç‡ï¼š16.39req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.41kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html?author=&email=&url=http%3A%2F%2Fw3layouts.com&submit=Send',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:19+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.132000s][ååç‡ï¼š7.58req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.41kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html?author=&email=&url=http%3A%2F%2Fw3layouts.com&submit=Send',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:19+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.107000s][ååç‡ï¼š9.35req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.41kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html?author=&email=&url=http%3A%2F%2Fw3layouts.com&submit=Send',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:34:19+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.190000s][ååç‡ï¼š5.26req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.41kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html?author=&email=&url=http%3A%2F%2Fw3layouts.com&submit=Send',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:35:08+08:00 ] 127.0.0.1 GET /index.php
+[ info ] tp5.com/index.php [è¿è¡Œæ—¶é—´ï¼š0.077000s][ååç‡ï¼š12.99req/s] [å†…å­˜æ¶ˆè€—ï¼š1,403.84kb] [æ–‡ä»¶åŠ è½½ï¼š39]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Maximum execution time of 60 seconds exceeded[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbÜ«D†¾óÜÔ—1ÖâxåÌ†ÚÀC<Ã~Ø£À8Ò1xüıµ.Õ•^xıìã©%ì-R¼49Î#htÜ;4‰åXæY²1$ÿXWä(s·¾3Î/|gX CnŠ”ü«Ö»¿ÁH0ç/Å×Ÿhû:WùØ=ä¾wı Yb×Üã8[TÈšİ å‹¯ã”eWàÔÑà›ÔĞ7å~Ô*ùº>5€O®õ)ÔTîÑé‹¸h‡Üm@/ĞˆÈnkß«\‡N›bí>YŸLÉŸ­³G•±sÃ÷‚—éêÂ+E[¢ÌíH‚F<¼¾è›ow±7âİ®4L¹ÇÍ®<€Ê`ğXÅûå§¡÷Eü~Ñİ{¢Ÿ9@§óş-áx>ğŞjà~/¼{±|Û
+ÂØï8Ïı÷CØá~Ã×[1hÒ¬R¥ÆØl÷sİ¡rªğÜŞ¼5f8şÜóq/ù 	à:àJ~n¥yÀ»S4Ü/ğ{«ŞwÒ:õ5/»‹A»•nA?ÉZ()ö¬¡ßl˜¢P™Î~\„x]³k›NnoŸÿæQæ(13) : eval()'d code(1) : eval()'d code:7]
+---------------------------------------------------------------
+[ 2018-06-15T11:35:08+08:00 ] 127.0.0.1 GET /index.php
+[ info ] tp5.com/index.php [è¿è¡Œæ—¶é—´ï¼š0.083000s][ååç‡ï¼š12.05req/s] [å†…å­˜æ¶ˆè€—ï¼š1,403.84kb] [æ–‡ä»¶åŠ è½½ï¼š39]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Maximum execution time of 60 seconds exceeded[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbÜ«D†¾óÜÔ—1ÖâxåÌ†ÚÀC<Ã~Ø£À8Ò1xüıµ.Õ•^xıìã©%ì-R¼49Î#htÜ;4‰åXæY²1$ÿXWä(s·¾3Î/|gX CnŠ”ü«Ö»¿ÁH0ç/Å×Ÿhû:WùØ=ä¾wı Yb×Üã8[TÈšİ å‹¯ã”eWàÔÑà›ÔĞ7å~Ô*ùº>5€O®õ)ÔTîÑé‹¸h‡Üm@/ĞˆÈnkß«\‡N›bí>YŸLÉŸ­³G•±sÃ÷‚—éêÂ+E[¢ÌíH‚F<¼¾è›ow±7âİ®4L¹ÇÍ®<€Ê`ğXÅûå§¡÷Eü~Ñİ{¢Ÿ9@§óş-áx>ğŞjà~/¼{±|Û
+ÂØï8Ïı÷CØá~Ã×[1hÒ¬R¥ÆØl÷sİ¡rªğÜŞ¼5f8şÜóq/ù 	à:àJ~n¥yÀ»S4Ü/ğ{«ŞwÒ:õ5/»‹A»•nA?ÉZ()ö¬¡ßl˜¢P™Î~\„x]³k›NnoŸÿæQæ(13) : eval()'d code(1) : eval()'d code:7]
+---------------------------------------------------------------
+[ 2018-06-15T11:35:08+08:00 ] 127.0.0.1 GET /index.php
+[ info ] tp5.com/index.php [è¿è¡Œæ—¶é—´ï¼š0.162200s][ååç‡ï¼š6.17req/s] [å†…å­˜æ¶ˆè€—ï¼š1,403.84kb] [æ–‡ä»¶åŠ è½½ï¼š39]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Maximum execution time of 60 seconds exceeded[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbÜ«D†¾óÜÔ—1ÖâxåÌ†ÚÀC<Ã~Ø£À8Ò1xüıµ.Õ•^xıìã©%ì-R¼49Î#htÜ;4‰åXæY²1$ÿXWä(s·¾3Î/|gX CnŠ”ü«Ö»¿ÁH0ç/Å×Ÿhû:WùØ=ä¾wı Yb×Üã8[TÈšİ å‹¯ã”eWàÔÑà›ÔĞ7å~Ô*ùº>5€O®õ)ÔTîÑé‹¸h‡Üm@/ĞˆÈnkß«\‡N›bí>YŸLÉŸ­³G•±sÃ÷‚—éêÂ+E[¢ÌíH‚F<¼¾è›ow±7âİ®4L¹ÇÍ®<€Ê`ğXÅûå§¡÷Eü~Ñİ{¢Ÿ9@§óş-áx>ğŞjà~/¼{±|Û
+ÂØï8Ïı÷CØá~Ã×[1hÒ¬R¥ÆØl÷sİ¡rªğÜŞ¼5f8şÜóq/ù 	à:àJ~n¥yÀ»S4Ü/ğ{«ŞwÒ:õ5/»‹A»•nA?ÉZ()ö¬¡ßl˜¢P™Î~\„x]³k›NnoŸÿæQæ(13) : eval()'d code(1) : eval()'d code:7]
+---------------------------------------------------------------
+[ 2018-06-15T11:35:08+08:00 ] 127.0.0.1 GET /index.php
+[ info ] tp5.com/index.php [è¿è¡Œæ—¶é—´ï¼š0.114200s][ååç‡ï¼š8.76req/s] [å†…å­˜æ¶ˆè€—ï¼š1,403.84kb] [æ–‡ä»¶åŠ è½½ï¼š39]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Maximum execution time of 60 seconds exceeded[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbÜ«D†¾óÜÔ—1ÖâxåÌ†ÚÀC<Ã~Ø£À8Ò1xüıµ.Õ•^xıìã©%ì-R¼49Î#htÜ;4‰åXæY²1$ÿXWä(s·¾3Î/|gX CnŠ”ü«Ö»¿ÁH0ç/Å×Ÿhû:WùØ=ä¾wı Yb×Üã8[TÈšİ å‹¯ã”eWàÔÑà›ÔĞ7å~Ô*ùº>5€O®õ)ÔTîÑé‹¸h‡Üm@/ĞˆÈnkß«\‡N›bí>YŸLÉŸ­³G•±sÃ÷‚—éêÂ+E[¢ÌíH‚F<¼¾è›ow±7âİ®4L¹ÇÍ®<€Ê`ğXÅûå§¡÷Eü~Ñİ{¢Ÿ9@§óş-áx>ğŞjà~/¼{±|Û
+ÂØï8Ïı÷CØá~Ã×[1hÒ¬R¥ÆØl÷sİ¡rªğÜŞ¼5f8şÜóq/ù 	à:àJ~n¥yÀ»S4Ü/ğ{«ŞwÒ:õ5/»‹A»•nA?ÉZ()ö¬¡ßl˜¢P™Î~\„x]³k›NnoŸÿæQæ(13) : eval()'d code(1) : eval()'d code:7]
+---------------------------------------------------------------
+[ 2018-06-15T11:35:08+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.058000s][ååç‡ï¼š17.24req/s] [å†…å­˜æ¶ˆè€—ï¼š1,448.20kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:35:08+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.063000s][ååç‡ï¼š15.87req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:35:08+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.102000s][ååç‡ï¼š9.80req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:35:08+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.065000s][ååç‡ï¼š15.38req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:35:08+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.125000s][ååç‡ï¼š8.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:35:08+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.099000s][ååç‡ï¼š10.10req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:35:09+08:00 ] 127.0.0.1 GET /index.php
+[ info ] tp5.com/index.php [è¿è¡Œæ—¶é—´ï¼š0.063400s][ååç‡ï¼š15.77req/s] [å†…å­˜æ¶ˆè€—ï¼š1,403.84kb] [æ–‡ä»¶åŠ è½½ï¼š39]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Maximum execution time of 60 seconds exceeded[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbÜ«D†¾óÜÔ—1ÖâxåÌ†ÚÀC<Ã~Ø£À8Ò1xüıµ.Õ•^xıìã©%ì-R¼49Î#htÜ;4‰åXæY²1$ÿXWä(s·¾3Î/|gX CnŠ”ü«Ö»¿ÁH0ç/Å×Ÿhû:WùØ=ä¾wı Yb×Üã8[TÈšİ å‹¯ã”eWàÔÑà›ÔĞ7å~Ô*ùº>5€O®õ)ÔTîÑé‹¸h‡Üm@/ĞˆÈnkß«\‡N›bí>YŸLÉŸ­³G•±sÃ÷‚—éêÂ+E[¢ÌíH‚F<¼¾è›ow±7âİ®4L¹ÇÍ®<€Ê`ğXÅûå§¡÷Eü~Ñİ{¢Ÿ9@§óş-áx>ğŞjà~/¼{±|Û
+ÂØï8Ïı÷CØá~Ã×[1hÒ¬R¥ÆØl÷sİ¡rªğÜŞ¼5f8şÜóq/ù 	à:àJ~n¥yÀ»S4Ü/ğ{«ŞwÒ:õ5/»‹A»•nA?ÉZ()ö¬¡ßl˜¢P™Î~\„x]³k›NnoŸÿæQæ(13) : eval()'d code(1) : eval()'d code:7]
+---------------------------------------------------------------
+[ 2018-06-15T11:35:48+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.060000s][ååç‡ï¼š16.67req/s] [å†…å­˜æ¶ˆè€—ï¼š1,445.11kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:35:48+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.070000s][ååç‡ï¼š14.29req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:36:02+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.063000s][ååç‡ï¼š15.87req/s] [å†…å­˜æ¶ˆè€—ï¼š1,444.61kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:36:02+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.098000s][ååç‡ï¼š10.20req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.16kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:45+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.062000s][ååç‡ï¼š16.13req/s] [å†…å­˜æ¶ˆè€—ï¼š1,453.93kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:45+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.066000s][ååç‡ï¼š15.15req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.24kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:45+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.076000s][ååç‡ï¼š13.16req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.15kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:45+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.065000s][ååç‡ï¼š15.38req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.24kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:45+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.273000s][ååç‡ï¼š3.66req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:45+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.089000s][ååç‡ï¼š11.24req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.24kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:45+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.163000s][ååç‡ï¼š6.13req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.24kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:54+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.060000s][ååç‡ï¼š16.67req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.09kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:54+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.057000s][ååç‡ï¼š17.54req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:54+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.081000s][ååç‡ï¼š12.35req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.24kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:54+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.137000s][ååç‡ï¼š7.30req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.24kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:54+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.132000s][ååç‡ï¼š7.58req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.24kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:54+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.127000s][ååç‡ï¼š7.87req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.24kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:38:55+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.069000s][ååç‡ï¼š14.49req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.15kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:39:05+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.044000s][ååç‡ï¼š22.73req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.38kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:39:05+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.105000s][ååç‡ï¼š9.52req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:39:52+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.056000s][ååç‡ï¼š17.86req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.81kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:39:54+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.079000s][ååç‡ï¼š12.66req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.48kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:40:17+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.059000s][ååç‡ï¼š16.95req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.81kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:40:21+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.079000s][ååç‡ï¼š12.66req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.48kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:40:50+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.060000s][ååç‡ï¼š16.67req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.81kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:40:51+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.057000s][ååç‡ï¼š17.54req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.81kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:41:06+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.071000s][ååç‡ï¼š14.08req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.13kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->single[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:41:06+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.061000s][ååç‡ï¼š16.39req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:41:06+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.070000s][ååç‡ï¼š14.29req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.15kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:41:06+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.127000s][ååç‡ï¼š7.87req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:41:06+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.132000s][ååç‡ï¼š7.58req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:41:06+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.082000s][ååç‡ï¼š12.20req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:41:06+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.077000s][ååç‡ï¼š12.99req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:41:11+08:00 ] 127.0.0.1 GET /index/single/index.html
+[ info ] tp5.com/index/single/index.html [è¿è¡Œæ—¶é—´ï¼š0.077000s][ååç‡ï¼š12.99req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.48kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:13+08:00 ] 127.0.0.1 GET /
+[ info ] tp5.com/ [è¿è¡Œæ—¶é—´ï¼š0.064000s][ååç‡ï¼š15.63req/s] [å†…å­˜æ¶ˆè€—ï¼š1,508.40kb] [æ–‡ä»¶åŠ è½½ï¼š37]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:19+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.060000s][ååç‡ï¼š16.67req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.13kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->single[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:19+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.058000s][ååç‡ï¼š17.24req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:19+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.067000s][ååç‡ï¼š14.93req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.15kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:19+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.126000s][ååç‡ï¼š7.94req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:19+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.138000s][ååç‡ï¼š7.25req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:19+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.181000s][ååç‡ï¼š5.52req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:19+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.100000s][ååç‡ï¼š10.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:24+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.066000s][ååç‡ï¼š15.15req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.13kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->single[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:24+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.070000s][ååç‡ï¼š14.29req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:24+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.115000s][ååç‡ï¼š8.70req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:24+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.096000s][ååç‡ï¼š10.42req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:24+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.132000s][ååç‡ï¼š7.58req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:24+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.160000s][ååç‡ï¼š6.25req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.15kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:24+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.163000s][ååç‡ï¼š6.13req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:57+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.070000s][ååç‡ï¼š14.29req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.13kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->single[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:57+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.065000s][ååç‡ï¼š15.38req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:57+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.125000s][ååç‡ï¼š8.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:57+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.088000s][ååç‡ï¼š11.36req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:57+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.210000s][ååç‡ï¼š4.76req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.15kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:57+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.076000s][ååç‡ï¼š13.16req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:42:57+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.114000s][ååç‡ï¼š8.77req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:00+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.072000s][ååç‡ï¼š13.89req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.13kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->single[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:00+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.059000s][ååç‡ï¼š16.95req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:00+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.100000s][ååç‡ï¼š10.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.15kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:00+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.183000s][ååç‡ï¼š5.46req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:00+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.220000s][ååç‡ï¼š4.55req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:00+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.212000s][ååç‡ï¼š4.72req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:00+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.172000s][ååç‡ï¼š5.81req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:07+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.070000s][ååç‡ï¼š14.29req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.13kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->single[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:07+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.152000s][ååç‡ï¼š6.58req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:07+08:00 ] 127.0.0.1 GET /index/single/images/avatar.jpg
+[ info ] tp5.com/index/single/images/avatar.jpg [è¿è¡Œæ—¶é—´ï¼š0.130000s][ååç‡ï¼š7.69req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.15kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:07+08:00 ] 127.0.0.1 GET /index/single/images/ep2.jpg
+[ info ] tp5.com/index/single/images/ep2.jpg [è¿è¡Œæ—¶é—´ï¼š0.120000s][ååç‡ï¼š8.33req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.24kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:07+08:00 ] 127.0.0.1 GET /index/single/images/ep1.jpg
+[ info ] tp5.com/index/single/images/ep1.jpg [è¿è¡Œæ—¶é—´ï¼š0.173000s][ååç‡ï¼š5.78req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:07+08:00 ] 127.0.0.1 GET /index/single/images/ep3.jpg
+[ info ] tp5.com/index/single/images/ep3.jpg [è¿è¡Œæ—¶é—´ï¼š0.078000s][ååç‡ï¼š12.82req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:43:07+08:00 ] 127.0.0.1 GET /index/single/images/ep4.jpg
+[ info ] tp5.com/index/single/images/ep4.jpg [è¿è¡Œæ—¶é—´ï¼š0.076000s][ååç‡ï¼š13.16req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.24kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:44:06+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.051000s][ååç‡ï¼š19.61req/s] [å†…å­˜æ¶ˆè€—ï¼š1,444.75kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->single[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:44:06+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.075000s][ååç‡ï¼š13.33req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:47:20+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.071000s][ååç‡ï¼š14.08req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.10kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->single[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:47:21+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.078000s][ååç‡ï¼š12.82req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T11:47:39+08:00 ] 127.0.0.1 GET /printing.html
+[ info ] tp5.com/printing.html [è¿è¡Œæ—¶é—´ï¼š0.056000s][ååç‡ï¼š17.86req/s] [å†…å­˜æ¶ˆè€—ï¼š1,048.74kb] [æ–‡ä»¶åŠ è½½ï¼š27]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'printing',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T14:06:46+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.087000s][ååç‡ï¼š11.49req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.10kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->single[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T14:06:46+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.069000s][ååç‡ï¼š14.49req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T14:06:50+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.076000s][ååç‡ï¼š13.16req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.10kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->single[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T14:06:50+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.056000s][ååç‡ï¼š17.86req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T14:06:55+08:00 ] 127.0.0.1 GET /index/single/single.html
+[ info ] tp5.com/index/single/single.html [è¿è¡Œæ—¶é—´ï¼š0.069000s][ååç‡ï¼š14.49req/s] [å†…å­˜æ¶ˆè€—ï¼š1,296.10kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Single->single[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Single.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T14:06:56+08:00 ] 127.0.0.1 GET /index/single/images/printing.jpg
+[ info ] tp5.com/index/single/images/printing.jpg [è¿è¡Œæ—¶é—´ï¼š0.063000s][ååç‡ï¼š15.87req/s] [å†…å­˜æ¶ˆè€—ï¼š1,330.23kb] [æ–‡ä»¶åŠ è½½ï¼š36]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'single',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/single/single.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6833091584',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
