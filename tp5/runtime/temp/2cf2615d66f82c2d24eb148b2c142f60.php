@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:82:"D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html";i:1529198508;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\header.html";i:1529198508;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\foot.html";i:1529198508;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:82:"D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html";i:1529374358;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\header.html";i:1529198508;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\foot.html";i:1529198508;}*/ ?>
 
 
 <!DOCTYPE html>
@@ -73,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="article">
 					<h5 class="head">in recent news</h5>
 					<h6>Software </h6>
-					<a class="title" href="<?php echo url('index/single/single'); ?>">DeltaMaker – The new kid on the block An Elegant 3D Printer and a new wicked ass thing</a>
+					<a class="title" href="<?php echo url('index.php/index/single/single'); ?>">1DeltaMaker – The new kid on the block An Elegant 3D Printer and a new wicked ass thing</a>
 					<a href="<?php echo url('index/single/single'); ?>"><img src="http://127.0.0.1/tp5/public/static/index/images/a1.jpg" alt="" /></a>
 					<p>Products were inspired by Behance's research of especially productive teams in the creative industry. Hundreds of individuals and teams were interviewed, and Behance chronicled the work habits and best practices of creative leaders. </p>
 					<p>The paper products were initially designed by and for the Behance team as a way to stay organized. In 2007, at the insistence of friends who wanted Action Pads of their own...</p>
