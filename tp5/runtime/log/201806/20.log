@@ -1,0 +1,29 @@
+---------------------------------------------------------------
+[ 2018-06-20T16:37:13+08:00 ] 127.0.0.1 GET /
+[ info ] tp5.com/ [运行时间：0.255406s][吞吐率：3.92req/s] [内存消耗：1,229.13kb] [文件加载：37]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6833091584',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
