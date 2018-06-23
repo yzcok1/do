@@ -1,4 +1,4 @@
-<?php /*a:6:{s:74:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\index\detail.html";i:1517299854;s:73:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\base.html";i:1517045398;s:76:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\header.html";i:1517203494;s:73:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\nav.html";i:1517565328;s:74:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\right.html";i:1517569256;s:76:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\footer.html";i:1517217536;}*/ ?>
+<?php /*a:6:{s:74:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\index\detail.html";i:1517299854;s:73:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\base.html";i:1517045398;s:76:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\header.html";i:1529736060;s:73:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\nav.html";i:1517565328;s:74:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\right.html";i:1517569256;s:76:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\footer.html";i:1529736028;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -213,6 +213,7 @@
 </div>
 	</div>
 	<script type="text/javascript">
+	
 		var editor = $('#editor')
 		if (editor.attr('id') !== undefined)
 		{
@@ -224,6 +225,15 @@
 			})
 		}
 </script>
+
+<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script> 
+ 
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript" src="/static/h-ui/js/H-ui.js"></script> 
+<script type="text/javascript" src="/static/h-ui.admin/js/H-ui.admin.page.js"></script> 
 </body>
 </html>
 <!-- 底部结束 -->
