@@ -1,0 +1,631 @@
+---------------------------------------------------------------
+[ 2018-06-25T08:42:31+08:00 ] 127.0.0.1 GET /
+[ info ] tp51.com/ [运行时间：4.360249s][吞吐率：0.23req/s] [内存消耗：2,441.06kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'cateName',
+  3 => 'empty',
+  4 => 'artList',
+  5 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.089063s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.178010s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.228014s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.142008s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.068004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.124007s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-06-25T08:42:31+08:00 ] 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.js
+[ info ] tp51.com/static/lib/jquery/1.9.1/jquery.min.js [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：906.43kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery/1_9_1/jquery_min_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:42:31+08:00 ] 127.0.0.1 GET /static/lib/layer/2.4/layer.js
+[ info ] tp51.com/static/lib/layer/2.4/layer.js [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：906.39kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/layer/2_4/layer_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:42:32+08:00 ] 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.js
+[ info ] tp51.com/static/lib/jquery/1.9.1/jquery.min.js [运行时间：0.137008s][吞吐率：7.30req/s] [内存消耗：906.43kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery/1_9_1/jquery_min_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:42:32+08:00 ] 127.0.0.1 GET /static/lib/layer/2.4/layer.js
+[ info ] tp51.com/static/lib/layer/2.4/layer.js [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：906.39kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/layer/2_4/layer_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:42:32+08:00 ] 127.0.0.1 GET /static/lib/jquery.validation/1.14.0/messages_zh.js
+[ info ] tp51.com/static/lib/jquery.validation/1.14.0/messages_zh.js [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：906.51kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery_validation/1_14_0/messages_zh_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:42:33+08:00 ] 127.0.0.1 GET /static/lib/jquery.validation/1.14.0/validate-methods.js
+[ info ] tp51.com/static/lib/jquery.validation/1.14.0/validate-methods.js [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：906.53kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery_validation/1_14_0/validate-methods_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:42:33+08:00 ] 127.0.0.1 GET /static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] tp51.com/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：906.20kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h-ui_admin/js/H-ui_admin_page_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:42:33+08:00 ] 127.0.0.1 GET /static/lib/jquery.validation/1.14.0/jquery.validate.js
+[ info ] tp51.com/static/lib/jquery.validation/1.14.0/jquery.validate.js [运行时间：0.058004s][吞吐率：17.24req/s] [内存消耗：906.52kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery_validation/1_14_0/jquery_validate_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:42:33+08:00 ] 127.0.0.1 GET /static/lib/jquery.validation/1.14.0/validate-methods.js
+[ info ] tp51.com/static/lib/jquery.validation/1.14.0/validate-methods.js [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：906.53kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery_validation/1_14_0/validate-methods_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:42:33+08:00 ] 127.0.0.1 GET /static/h-ui/js/H-ui.js
+[ info ] tp51.com/static/h-ui/js/H-ui.js [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：906.12kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h-ui/js/H-ui_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:42:33+08:00 ] 127.0.0.1 GET /static/lib/jquery.validation/1.14.0/messages_zh.js
+[ info ] tp51.com/static/lib/jquery.validation/1.14.0/messages_zh.js [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：906.51kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery_validation/1_14_0/messages_zh_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:42:33+08:00 ] 127.0.0.1 GET /static/h-ui/js/H-ui.js
+[ info ] tp51.com/static/h-ui/js/H-ui.js [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：906.12kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h-ui/js/H-ui_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:42:33+08:00 ] 127.0.0.1 GET /static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] tp51.com/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：906.20kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h-ui_admin/js/H-ui_admin_page_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:43:30+08:00 ] 127.0.0.1 GET /index/index/index/cate_id/2.html
+[ info ] tp51.com/index/index/index/cate_id/2.html [运行时间：1.241071s][吞吐率：0.81req/s] [内存消耗：2,316.62kb] [文件加载：84]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index/cate_id/2_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'cateName',
+  3 => 'empty',
+  4 => 'artList',
+  5 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.037060s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1  AND `cate_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1  AND `cate_id` = 2 ORDER BY `create_time`  desc LIMIT 0,4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-06-25T08:43:30+08:00 ] 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.js
+[ info ] tp51.com/static/lib/jquery/1.9.1/jquery.min.js [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：906.57kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/index/index/index/cate_id/2.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery/1_9_1/jquery_min_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:43:30+08:00 ] 127.0.0.1 GET /static/lib/jquery.validation/1.14.0/jquery.validate.js
+[ info ] tp51.com/static/lib/jquery.validation/1.14.0/jquery.validate.js [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：906.66kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/index/index/index/cate_id/2.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery_validation/1_14_0/jquery_validate_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:43:30+08:00 ] 127.0.0.1 GET /static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] tp51.com/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：906.34kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/index/index/index/cate_id/2.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h-ui_admin/js/H-ui_admin_page_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:43:31+08:00 ] 127.0.0.1 GET /static/h-ui/js/H-ui.js
+[ info ] tp51.com/static/h-ui/js/H-ui.js [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：906.26kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/index/index/index/cate_id/2.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h-ui/js/H-ui_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:43:31+08:00 ] 127.0.0.1 GET /static/lib/jquery.validation/1.14.0/messages_zh.js
+[ info ] tp51.com/static/lib/jquery.validation/1.14.0/messages_zh.js [运行时间：0.124007s][吞吐率：8.06req/s] [内存消耗：906.65kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/index/index/index/cate_id/2.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery_validation/1_14_0/messages_zh_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:43:31+08:00 ] 127.0.0.1 GET /static/lib/jquery.validation/1.14.0/validate-methods.js
+[ info ] tp51.com/static/lib/jquery.validation/1.14.0/validate-methods.js [运行时间：0.077005s][吞吐率：12.99req/s] [内存消耗：906.67kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/index/index/index/cate_id/2.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery_validation/1_14_0/validate-methods_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:43:31+08:00 ] 127.0.0.1 GET /static/lib/layer/2.4/layer.js
+[ info ] tp51.com/static/lib/layer/2.4/layer.js [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：906.53kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/index/index/index/cate_id/2.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/layer/2_4/layer_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:43:31+08:00 ] 127.0.0.1 GET /static/lib/jquery.validation/1.14.0/jquery.validate.js
+[ info ] tp51.com/static/lib/jquery.validation/1.14.0/jquery.validate.js [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：906.66kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/index/index/index/cate_id/2.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery_validation/1_14_0/jquery_validate_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:43:32+08:00 ] 127.0.0.1 GET /static/lib/jquery.validation/1.14.0/validate-methods.js
+[ info ] tp51.com/static/lib/jquery.validation/1.14.0/validate-methods.js [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：906.67kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/index/index/index/cate_id/2.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery_validation/1_14_0/validate-methods_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:43:32+08:00 ] 127.0.0.1 GET /static/lib/jquery.validation/1.14.0/messages_zh.js
+[ info ] tp51.com/static/lib/jquery.validation/1.14.0/messages_zh.js [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：906.65kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/index/index/index/cate_id/2.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/lib/jquery_validation/1_14_0/messages_zh_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:43:32+08:00 ] 127.0.0.1 GET /static/h-ui/js/H-ui.js
+[ info ] tp51.com/static/h-ui/js/H-ui.js [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：906.26kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/index/index/index/cate_id/2.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h-ui/js/H-ui_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-25T08:43:32+08:00 ] 127.0.0.1 GET /static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] tp51.com/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：906.34kb] [文件加载：56]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp51\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=am26eqidflb6j9nn7lamrivqs2; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp51.com/index/index/index/cate_id/2.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp51.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h-ui_admin/js/H-ui_admin_page_js' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
