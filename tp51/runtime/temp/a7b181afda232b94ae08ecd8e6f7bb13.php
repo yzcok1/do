@@ -1,4 +1,4 @@
-<?php /*a:6:{s:72:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\user\login.html";i:1517044432;s:73:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\base.html";i:1517045398;s:76:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\header.html";i:1517203494;s:73:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\nav.html";i:1517565328;s:74:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\right.html";i:1517569256;s:76:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\footer.html";i:1517217536;}*/ ?>
+<?php /*a:6:{s:72:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\user\login.html";i:1517044432;s:73:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\base.html";i:1517045398;s:76:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\header.html";i:1529736060;s:73:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\nav.html";i:1517565328;s:74:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\right.html";i:1517569256;s:76:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\footer.html";i:1530061429;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -196,6 +196,7 @@
 </div>
 	</div>
 	<script type="text/javascript">
+	
 		var editor = $('#editor')
 		if (editor.attr('id') !== undefined)
 		{
@@ -207,6 +208,8 @@
 			})
 		}
 </script>
+
+
 </body>
 </html>
 <!-- 底部结束 -->
