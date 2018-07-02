@@ -52,10 +52,13 @@ class Base extends Controller
     protected function showNav()
     {
         //1.查询分类表得到所有的分类信息,该方法要在初始化方法中调用
-        $cateList = ArtCate::all(function($query){
+        /* $cateList = ArtCate::all(function($query){
             $query->where('status',1)->order('sort','asc');
-        });
-        //2.将分类信息赋值给模板: nav.html中调用
+        }); */
+		
+		 $cateList = ArtCate::where('status',1)->order('sort','asc')->select();
+       
+		//2.将分类信息赋值给模板: nav.html中调用
         $this->view->assign('cateList', $cateList);
         
     }

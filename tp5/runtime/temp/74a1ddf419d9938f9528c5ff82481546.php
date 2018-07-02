@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:84:"D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\single\single.html";i:1530517537;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\base.html";i:1530517479;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\header.html";i:1530517103;s:71:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\nav.html";i:1530517983;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\footer.html";i:1530516766;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:83:"D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\single.html";i:1530519195;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\base.html";i:1530519727;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\header.html";i:1530523737;s:71:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\nav.html";i:1530517983;s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\right.html";i:1530519849;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\footer.html";i:1530519812;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,8 +6,14 @@
 <link href="http://127.0.0.1/tp5/public/static/index/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="http://127.0.0.1/tp5/public/static/index/css/style.css" rel="stylesheet" type="text/css" media="all" />
+
 <!-- Custom Theme files -->
 <script src="http://127.0.0.1/tp5/public/static/index/js/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://127.0.0.1/tp5/public/static/index/css/bootstrap.min.css" />
+	<script type="text/javascript" src="http://127.0.0.1/tp5/public/static/index/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="http://127.0.0.1/tp5/public/static/index/js/bootstrap.min.js"></script>
+
+	
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -64,6 +70,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				
 			</div>
+			
 			<div class="col-md-7 single-content-left">
 				<div class="features-list">
 					<h3>Features</h3>
@@ -80,39 +87,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				
 			</div>
-			<div class="col-md-5 content-right content-right-top">
-			<h5 class="head">Popular</h5>	
-				<a href="single.html">
-					<div class="editor text-center">
-						<h3>DeltaMaker – The new kid on the block An Elegant 3D Printer</h3>
-						<p>A new cheap ass 3D Printer worth checking out</p>
-						<label>2 Days Ago</label>
-						<span></span>
-					</div>
-				</a>
-				<a class="active" href="single.html">
-					<div class="editor text-center">
-						<h3>Software Review: Autodesk Inventor Fusion for Mac</h3>
-						<p>3D Printing, 3D Software</p>
-						<label>3 Days Ago</label>
-						<span></span>
-					</div>
-				</a>
-				<a href="single.html">
-					<div class="editor text-center">
-						<h3>DeltaMaker – The new kid on the block An Elegant 3D Printer</h3>
-						<p>A new cheap ass 3D Printer worth checking out</p>
-						<label>2 Days Ago</label>
-						<span></span>
-					</div>
-				</a>
+			
+
+<!-- <div class="col-md-5 content-right content-right-top">
+				<div class="content-right-top">
+					<h5 class="head">Popular</h5>	
+					<a class="" href="<?php echo url('single'); ?>">
+						<div class="editor text-center">
+							<h3>Software Review: Autodesk Inventor Fusion for Mac</h3>
+							<p>3D Printing, 3D Software</p>
+							<label>3 Days Ago</label>
+							<span></span>
+						</div>
+					</a>	
+					<a  href="<?php echo url('single'); ?>">
+						<div class="editor text-center">
+							<h3>Software Review: Autodesk Inventor Fusion for Mac</h3>
+							<p>3D Printing, 3D Software</p>
+							<label>3 Days Ago</label>
+							<span></span>
+						</div>
+					</a>	
+				</div>	
+			</div>
 				
 				
+			 -->
+				<div class="clearfix"></div>	
 			</div>	
-			<div class="clearfix"></div>
 		</div>
 	</div>
-
 	<div class="footer">
 		<div class="footer-top">
 			<div class="container">

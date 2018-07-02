@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:82:"D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html";i:1530519139;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\base.html";i:1530519727;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\header.html";i:1530523737;s:71:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\nav.html";i:1530517983;s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\right.html";i:1530519849;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\footer.html";i:1530519812;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:85:"D:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\register.html";i:1530522725;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\base.html";i:1530519727;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\header.html";i:1530523737;s:71:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\nav.html";i:1530517983;s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\right.html";i:1530519849;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application\index\view\common\footer.html";i:1530519812;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,25 +56,100 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
 	</div>
 
-
-    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+	<!-- 主体 -->
 	<div class="container">
-		<div class="content">
+	<div class="row ">
+		<!-- 左侧8列 -->
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+		<!-- 页头 -->
+		<div class="page-header text-center">
+  			<h2>用户注册</h2>
+		</div>
+		<!-- 注册表单:采用水平表单 -->
+		<form class="form-horizontal" method="post" id="login">
+  <div class="form-group">
+    <label for="inputEmail1" class="col-sm-2 control-label">用户名:</label>
+    <div class="col-sm-10">
+      <input type="text" name="name" class="form-control" id="inputEmail1" placeholder="UserName">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputEmail2" class="col-sm-2 control-label">邮箱:</label>
+    <div class="col-sm-10">
+      <input type="text" name="email" class="form-control" id="inputEmail2" placeholder="Email">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">手机:</label>
+    <div class="col-sm-10">
+      <input type="text" name="mobile" class="form-control" id="inputEmail3" placeholder="Mobile">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputPassword4" class="col-sm-2 control-label">密码:</label>
+    <div class="col-sm-10">
+      <input type="password" name="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputPassword5" class="col-sm-2 control-label">确认密码:</label>
+    <div class="col-sm-10">
+      <input type="password" name="password_confirm" class="form-control" id="inputPassword5" placeholder="Password Confirm">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="button" class="btn btn-primary" id="register">注册</button>
+    </div>
+  </div>
+  </div>
+</form>
+
+
+
+</div>
+</div>
+	<!-- ajax提交当前表单 -->
+<script type="text/javascript">
+  $(function(){
+    $('#register').on('click',function(){
+	//alert($('#login').serialize());
+      //用ajax提交用户信息 
+      $.ajax({
+        type: 'post',
+        url: "<?php echo url('index/insert'); ?>",
+        data: $('#login').serialize(),
+        dataType: 'json',
 		
-			<div class="col-md-7 content-left">
-				<div class="article">
-					
-					<h6>Software </h6>
-					<a class="title" href="<?php echo url('single'); ?>">1DeltaMaker – The new kid on the block An Elegant 3D Printer and a new wicked ass thing</a>
-					<a href="<?php echo url('single'); ?>"><img src="http://127.0.0.1/tp5/public/static/index/images/a1.jpg" alt="" /></a>
-					<p>Products were inspired by Behance's research of especially productive teams in the creative industry. Hundreds of individuals and teams were interviewed, and Behance chronicled the work habits and best practices of creative leaders. </p>
-					<p>The paper products were initially designed by and for the Behance team as a way to stay organized. In 2007, at the insistence of friends who wanted Action Pads of their own...</p>
-				</div>
-			</div>
-			
-			
-			
-	
+        success: function(data){
+          switch (data.status)
+          {
+            case 1:
+              alert(data.message);
+              window.location.href = "<?php echo url('index/index'); ?>";
+            break;
+            case 0:
+            case -1:
+              alert(data.message);
+              window.location.back();
+            break;
+			case -3:
+			alert(data.message);
+			break;
+          }
+        }
+      })
+	  //alert(123);
+  })
+  })
+</script>	
+<div class="col-md-3"></div> 
 
 <!-- <div class="col-md-5 content-right content-right-top">
 				<div class="content-right-top">

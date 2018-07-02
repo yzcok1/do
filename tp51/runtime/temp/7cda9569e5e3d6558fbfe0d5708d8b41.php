@@ -1,4 +1,4 @@
-<?php /*a:6:{s:74:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\index\detail.html";i:1530514039;s:73:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\base.html";i:1517045398;s:76:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\header.html";i:1529736060;s:73:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\nav.html";i:1517565328;s:74:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\right.html";i:1517569256;s:76:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\footer.html";i:1530061429;}*/ ?>
+<?php /*a:6:{s:75:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\user\register.html";i:1517046030;s:73:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\base.html";i:1517045398;s:76:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\header.html";i:1529736060;s:73:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\nav.html";i:1517565328;s:74:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\right.html";i:1517569256;s:76:"D:\myphp_www\PHPTutorial\WWW\tp51\application/index/view\public\\footer.html";i:1530061429;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -112,81 +112,81 @@
 		<div class="col-md-8">
 		<!-- 页头 -->
 		<div class="page-header">
-  			<h2><?php echo htmlentities(getCateName($art['cate_id'])); ?></h2>
+  			<h2>用户注册</h2>
 		</div>
+		<!-- 注册表单:采用水平表单 -->
+		<form class="form-horizontal" method="post" id="login">
+  <div class="form-group">
+    <label for="inputEmail1" class="col-sm-2 control-label">用户名:</label>
+    <div class="col-sm-10">
+      <input type="text" name="name" class="form-control" id="inputEmail1" placeholder="UserName">
+    </div>
+  </div>
 
-		<div>			
-            
-             <h4><?php echo htmlentities($art['title']); ?></h4>
-                <p>作者:<?php echo htmlentities(getUserName($art['user_id'])); ?>&nbsp;&nbsp;
-               发布时间:<?php echo htmlentities($art['create_time']); ?>&nbsp;&nbsp;
-               阅读量:<?php echo htmlentities($art['pv']); ?>&nbsp;&nbsp;
+  <div class="form-group">
+    <label for="inputEmail2" class="col-sm-2 control-label">邮箱:</label>
+    <div class="col-sm-10">
+      <input type="text" name="email" class="form-control" id="inputEmail2" placeholder="Email">
+    </div>
+  </div>
 
-               </p>
-               <div><?php echo htmlspecialchars_decode($art['content']); ?></div>
-              <hr/>
-              <button type="button"
-               class="btn btn-default" id="fav" 
-               user_id="<?php echo htmlentities($art['user_id']); ?>" article_id="<?php echo htmlentities($art['id']); ?>" session_id="<?php echo htmlentities(app('session')->get('user_id')); ?>">收藏</button>
-          </div> 
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">手机:</label>
+    <div class="col-sm-10">
+      <input type="text" name="mobile" class="form-control" id="inputEmail3" placeholder="Mobile">
+    </div>
+  </div>
 
-         
-         
-          <!-- 处理收藏功能 -->
-          <script type="text/javascript">
-            $(function(){
-              $('#fav').on('click',function(){
+  <div class="form-group">
+    <label for="inputPassword4" class="col-sm-2 control-label">密码:</label>
+    <div class="col-sm-10">
+      <input type="password" name="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
 
-
-
-                //获取当前的用户id与栏目id,因为收藏表中有这二个字段
-                var userId = $(this).attr('user_id')
-                var artId = $(this).attr('article_id')
-                var sessionId = $(this).attr('session_id')
-                if (userId && artId){
-                  $.ajax(
-                  {
-                    type: 'get',
-                    url : "<?php echo url('index/index/fav'); ?>",
-                    data: {
-                            user_id    : userId,
-                            article_id : artId,
-                            session_id : sessionId,
-                            time:new Date().getTime()
-                          },
-                    dataType : 'json',
-                    success  : function(data)
-                    {
-                      switch(data.status)
-                      {
-                      case 1:
-                        $('#fav').attr('class','btn btn-success')
-                        $('#fav').text(data.message)
-                        break
-
-                        case 0:
-                        $('#fav').attr('class','btn btn-default')
-                        $('#fav').text(data.message)
-                        break
-
-                        case -1:
-                        alert(data.message)
-                        break
-
-                        case -2:
-                        alert(data.message)
-                        break
-
-                      }
-                   }
-                  }
-                    
-                  )
-                }
+  <div class="form-group">
+    <label for="inputPassword5" class="col-sm-2 control-label">确认密码:</label>
+    <div class="col-sm-10">
+      <input type="password" name="password_confirm" class="form-control" id="inputPassword5" placeholder="Password Confirm">
+    </div>
+  </div>
   
-              })
-            })
-          </script>          
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="button" class="btn btn-primary" id="register">注册</button>
+    </div>
+  </div>
+</form>
+
+	<!-- ajax提交当前表单 -->
+<script type="text/javascript">
+  $(function(){
+    $('#register').on('click',function(){
+      //用ajax提交用户信息 
+      $.ajax({
+        type: 'post',
+        url: "<?php echo url('insert'); ?>",
+        data: $('#login').serialize(),
+        dataType: 'json',
+        success: function(data){
+          switch (data.status)
+          {
+            case 1:
+              alert(data.message);
+              window.location.href = "<?php echo url('index/index'); ?>";
+            break;
+            case 0:
+            case -1:
+              alert(data.message);
+              window.location.back();
+            break;
+          }
+
+        }
+      })
+  })
+  })
+</script>	 
 
 
 <!-- 右侧4列 -->
