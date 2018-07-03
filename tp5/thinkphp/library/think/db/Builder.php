@@ -113,14 +113,14 @@ abstract class Builder
             } elseif (is_null($val)) {
                 $result[$item] = 'NULL';
             } elseif (is_array($val) && !empty($val)) {
-                switch (strtolower($val[0])) {
+                switch ($val[0]) {
                     case 'inc':
                         $result[$item] = $item . '+' . floatval($val[1]);
                         break;
                     case 'dec':
                         $result[$item] = $item . '-' . floatval($val[1]);
                         break;
-                    case 'exp':
+                    default:
                         throw new Exception('not support data:[' . $val[0] . ']');
                 }
             } elseif (is_scalar($val)) {
@@ -268,8 +268,10 @@ abstract class Builder
             $str = [];
             foreach ($val as $field => $value) {
                 if ($value instanceof Expression) {
-                    $str[] = ' ' . $key . ' ( ' . $field . ' ' . $value->getValue() . ' )';
-                } elseif ($value instanceof \Closure) {
+                    $str[] = ' ' . $key . ' ( ' . $value->getValue() . ' )';
+                    continue;
+                }
+                if ($value instanceof \Closure) {
                     // 使用闭包查询
                     $query = new Query($this->connection);
                     call_user_func_array($value, [ & $query]);
