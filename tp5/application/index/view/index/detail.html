@@ -1,0 +1,144 @@
+{extend name="public:base" /}
+{block name="body"}
+	<P>首页&nbsp>&nbsp{$art.cate_id|getCateName}&nbsp>&nbsp{$art.title}</P>
+	<!-- 主体 -->
+	<div class="row">
+		<!-- 左侧8列 -->
+		<div class="col-md-8">
+		<!-- 页头 -->
+		<div class="page-header">
+  			<h3>{$art.cate_id|getCateName}</h3>			
+		</div>
+
+		<div>			
+            
+             <h4>{$art.title}</h4>
+                <p>作者:{$art.user_id|getUserName}&nbsp;&nbsp;
+               发布时间:{$art.create_time}&nbsp;&nbsp;
+               浏览:{$art.pv}&nbsp;&nbsp;
+			   <a class="" id="fav" user_id="{$art.user_id}" article_id="{$art.id}" session_id="{$Think.session.user_id}">
+			   <span id="fav_logo" class="glyphicon glyphicon-star black" aria-hidden="true"></span>
+			   </a>
+			   <a class=" " id="like" user_id="{$art.user_id}" article_id="{$art.id}" session_id="{$Think.session.user_id}">
+			   <span id="like_logo" class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+			   </a>
+			   </p>
+               <div>{:htmlspecialchars_decode($art.content)}</div>
+              <hr/>
+              
+			  
+          </div> 
+
+         
+         
+          <!-- 处理收藏功能 -->
+          <script type="text/javascript">
+            $(function(){
+              $('#fav').on('click',function(){
+                //获取当前的用户id与栏目id,因为收藏表中有这二个字段
+                var userId = $(this).attr('user_id')
+                var artId = $(this).attr('article_id')
+                var sessionId = $(this).attr('session_id')
+                if (userId && artId){
+                  $.ajax(
+                  {
+                    type: 'get',
+                    url : "{:url('index/index/fav')}",
+                    data: {
+                            user_id    : userId,
+                            article_id : artId,
+                            session_id : sessionId,
+                            time:new Date().getTime()
+                          },
+                    dataType : 'json',
+                    success  : function(data)
+                    {
+                      switch(data.status)
+                      {
+                      case 1:
+                        $('#fav_logo').attr('class','glyphicon glyphicon-star')
+                        $//('#fav').text(data.message)
+						alert(data.message)
+                        break
+
+                        case 0:
+                        $('#fav_logo').attr('class','glyphicon glyphicon-star-empty')
+                        //$('#fav').text(data.message)
+						alert(data.message)
+                        break
+
+                        case -1:
+                        alert(data.message)
+                        break
+
+                        case -2:
+                        alert(data.message)
+                        break
+
+                      }
+                   }
+                  }
+                    
+                  )
+                }
+  
+              })
+            })
+          </script>     
+	     <!-- 处理点赞功能 -->
+          <script type="text/javascript">
+            $(function(){
+              $('#like').on('click',function(){
+                //获取当前的用户id与栏目id,因为收藏表中有这二个字段
+                var userId = $(this).attr('user_id')
+                var artId = $(this).attr('article_id')
+                var sessionId = $(this).attr('session_id')
+                if (userId && artId){
+                  $.ajax(
+                  {
+                    type: 'get',
+                    url : "{:url('index/index/like')}",
+                    data: {
+                            user_id    : userId,
+                            article_id : artId,
+                            session_id : sessionId,
+                            time:new Date().getTime()
+                          },
+                    dataType : 'json',
+                    success  : function(data)
+                    {
+                      switch(data.status)
+                      {
+						case 1:
+						$('#like_logo').css('glyphicon glyphicon-heart') ;
+                        
+                        //$('#like').text(data.message)
+						alert(data.message)
+                        break
+
+                        case 0:
+                        $('#like_logo').css('glyphicon glyphicon-heart-empty') ;
+						//
+                        //$('#like').text(data.message)
+						alert(data.message)
+                        break
+
+                        case -1:
+                        alert(data.message)
+                        break
+
+                        case -2:
+                        alert(data.message)
+                        break
+
+                      }
+                   }
+                  }
+                    
+                  )
+                }
+  
+              })
+            })
+          </script> 
+{/block}
