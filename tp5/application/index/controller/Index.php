@@ -191,9 +191,9 @@ class Index extends Base
         $map[] = ['user_id','=', $data['user_id']];
         $map[] = ['article_id','=', $data['article_id']];
 
-        $fav=Db::table('zh_user_like')->where($map)->find();
-        // halt($fav);
-        if (is_null($fav)) {
+        $like=Db::table('zh_user_like')->where($map)->find();
+        //halt($like);
+        if (is_null($like)) {
 
             Db::table('zh_user_like')
             ->data([
@@ -206,13 +206,28 @@ class Index extends Base
             Db::table('zh_user_like')->where($map)->delete();
             return ['status'=>0, 'message'=>'已取消点赞'];      
         }
-
-        //思考: 如果验证用户是否登录?
     }
+	
+	 public function comment()
+	 {	
+		 $data = Request::param();
+		 //return ['status'=>1, 'message'=>'已'];
+		 
+
+            Db::table('zh_user_comment')
+            ->data([
+                'user_id'=>$data['user_id'],
+                'article_id'=>$data['article_id'],
+				'user_comment'=>$data['user_comment']
+            ])->insert();
+            return ['status'=>1, 'message'=>'成功评论'];
+                  
+        
+		 
+	 }
+
+
 }
-
-
-
 
 
 
