@@ -79,7 +79,7 @@
 							</path>
 						</svg>
 					</span>
-					感谢
+					点赞
 				</button>
 			</div>
 				<form style="margin-top:10px;" method="post" id="user_comment">
@@ -87,13 +87,16 @@
 				<input type="hidden" name="user_id" value="{$Think.session.user_id}">
 		
 				  <div class="form-group">	
-					<input type="text" class="form-control" name="user_comment" placeholder="写下你的评论">
+					<input type="text" class="form-control" id="content" value="" name="user_comment" placeholder="写下你的评论">
 				  </div>
-				  <button id="comment" type="button" class="btn btn-default">评论</button>
+				  <button id="comment" type="button" class="btn btn-default">提交</button>
+				   
 				</form>
 			 
 			 
-			 
+					{volist name="comment" id="vo"}
+				  <p>{$vo.user_id}回复{$vo.article_id}:{$vo.user_comment} </p>
+				  {/volist}
 			  <hr/>
           </div> 
 
@@ -224,12 +227,16 @@
 					  {
 						case 1:  //评论成功
 						  alert(data.message);
-						  //window.location.href = "{:url('index/index')}";
+						 
+						//$('#content').text("Hello world!");
+							$('#content').attr("value","money");
+						 window.location.reload()
+						  //window.location.href = "{:url('index/index/')}";
 						break;
 						case 0:  //失败或验证不通过
 						case -1:
 						  alert(data.message);
-						  //window.location.back();
+						  // window.location.back();
 						break;
 					  }
 

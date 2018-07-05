@@ -5,6 +5,10 @@ use think\Model;
 
 class Article extends Model 
 {
+	public function comment()
+    {
+        return $this->hasOne('Comment','article_id');
+    }
 	//默认主键
 	protected $pk = 'id';
 
@@ -23,7 +27,7 @@ class Article extends Model
 	protected $insert = ['create_time','status'=>1,'is_top'=>0,'is_hot'=>0];
 	//仅更新时设置
 	protected $update = ['update_time'];
-
+	
 	  
 
 }

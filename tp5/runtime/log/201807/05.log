@@ -22375,3 +22375,3514 @@
 [ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.001000s ]
 [ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comment` [ RunTime:0.012000s ]
 [ sql ] [ SQL ] INSERT INTO `zh_user_comment` (`user_id` , `article_id` , `user_comment`) VALUES (4 , 22 , '45454') [ RunTime:0.036000s ]
+---------------------------------------------------------------
+[ 2018-07-05T20:25:30+08:00 ] 127.0.0.1 GET /
+[ info ] tp5.com/ [运行时间：1.277015s][吞吐率：0.78req/s] [内存消耗：2,445.84kb] [文件加载：86]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'cateName',
+  4 => 'empty',
+  5 => 'artList',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.036513s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002501s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T20:25:31+08:00 ] 127.0.0.1 GET /
+[ info ] tp5.com/ [运行时间：1.193519s][吞吐率：0.84req/s] [内存消耗：2,317.04kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'cateName',
+  4 => 'empty',
+  5 => 'artList',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T20:25:48+08:00 ] 127.0.0.1 GET /index/index/detail/id/22.html
+[ info ] tp5.com/index/index/detail/id/22.html [运行时间：1.212519s][吞吐率：0.82req/s] [内存消耗：2,441.38kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/22_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.000016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 22 [ RunTime:0.012501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.007500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T20:25:55+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.155804s][吞吐率：0.87req/s] [内存消耗：2,066.53kb] [文件加载：79]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '22',
+  'user_id' => '',
+  'user_comment' => '1111',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.038403s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zh.zh_user_comment' doesn't exist[C:\php\PHPTutorial\WWW\tp5\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-07-05T20:49:34+08:00 ] 127.0.0.1 GET /index/index/like.html?user_id=4&article_id=22&session_id=&time=1530794972765
+[ info ] tp5.com/index/index/like.html?user_id=4&article_id=22&session_id=&time=1530794972765 [运行时间：1.249806s][吞吐率：0.80req/s] [内存消耗：2,074.85kb] [文件加载：76]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/like_html' => '',
+  'user_id' => '4',
+  'article_id' => '22',
+  'session_id' => '',
+  'time' => '1530794972765',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.039305s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T20:50:01+08:00 ] 127.0.0.1 GET /index/index/detail/id/22.html
+[ info ] tp5.com/index/index/detail/id/22.html [运行时间：1.332520s][吞吐率：0.75req/s] [内存消耗：2,441.62kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/22_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 22 [ RunTime:0.012501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T20:50:08+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.287520s][吞吐率：0.78req/s] [内存消耗：2,287.09kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T20:52:39+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.337520s][吞吐率：0.75req/s] [内存消耗：2,441.77kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022516s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T20:52:42+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.380022s][吞吐率：0.72req/s] [内存消耗：2,287.16kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022516s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T20:52:54+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.390021s][吞吐率：0.72req/s] [内存消耗：2,287.16kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002515s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.005001s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T20:53:36+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.380022s][吞吐率：0.72req/s] [内存消耗：2,441.77kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015015s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.022501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T20:54:59+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.243108s][吞吐率：0.80req/s] [内存消耗：2,066.52kb] [文件加载：79]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.037707s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.015600s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zh.zh_user_comment' doesn't exist[C:\php\PHPTutorial\WWW\tp5\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-07-05T21:19:09+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.332521s][吞吐率：0.75req/s] [内存消耗：2,287.09kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.040000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:19:14+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.159503s][吞吐率：0.86req/s] [内存消耗：2,103.73kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '11111',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.047102s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Function name must be a string[C:\php\PHPTutorial\WWW\tp5\application\index\controller\Index.php:216]
+---------------------------------------------------------------
+[ 2018-07-05T21:19:20+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.223811s][吞吐率：0.82req/s] [内存消耗：2,103.73kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '11111',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.032009s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ error ] [0]致命错误: Function name must be a string[C:\php\PHPTutorial\WWW\tp5\application\index\controller\Index.php:216]
+---------------------------------------------------------------
+[ 2018-07-05T21:19:27+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.330020s][吞吐率：0.75req/s] [内存消耗：2,287.09kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.032500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:19:30+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.224403s][吞吐率：0.82req/s] [内存消耗：2,103.73kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '23232323',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.037102s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Function name must be a string[C:\php\PHPTutorial\WWW\tp5\application\index\controller\Index.php:216]
+---------------------------------------------------------------
+[ 2018-07-05T21:21:07+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.282520s][吞吐率：0.78req/s] [内存消耗：2,287.09kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.010016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.032500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:21:11+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.185403s][吞吐率：0.84req/s] [内存消耗：2,103.73kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => 'Q1111',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.029601s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031201s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Function name must be a string[C:\php\PHPTutorial\WWW\tp5\application\index\controller\Index.php:216]
+---------------------------------------------------------------
+[ 2018-07-05T21:21:14+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.228613s][吞吐率：0.81req/s] [内存消耗：2,103.73kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => 'Q1111',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027510s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.035000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002501s ]
+[ error ] [0]致命错误: Function name must be a string[C:\php\PHPTutorial\WWW\tp5\application\index\controller\Index.php:216]
+---------------------------------------------------------------
+[ 2018-07-05T21:22:41+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.357521s][吞吐率：0.74req/s] [内存消耗：2,287.09kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015015s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.017501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.017501s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:22:44+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.230704s][吞吐率：0.81req/s] [内存消耗：2,103.73kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '1111',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.043403s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Function name must be a string[C:\php\PHPTutorial\WWW\tp5\application\index\controller\Index.php:216]
+---------------------------------------------------------------
+[ 2018-07-05T21:22:49+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.250805s][吞吐率：0.80req/s] [内存消耗：2,103.73kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '1111',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023005s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Function name must be a string[C:\php\PHPTutorial\WWW\tp5\application\index\controller\Index.php:216]
+---------------------------------------------------------------
+[ 2018-07-05T21:22:53+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.150915s][吞吐率：0.87req/s] [内存消耗：2,103.73kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '1111',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.010913s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ error ] [0]致命错误: Function name must be a string[C:\php\PHPTutorial\WWW\tp5\application\index\controller\Index.php:216]
+---------------------------------------------------------------
+[ 2018-07-05T21:23:43+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.322521s][吞吐率：0.76req/s] [内存消耗：2,287.50kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025015s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:23:46+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.145803s][吞吐率：0.87req/s] [内存消耗：2,104.13kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '38',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '22',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.029002s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Function name must be a string[C:\php\PHPTutorial\WWW\tp5\application\index\controller\Index.php:216]
+---------------------------------------------------------------
+[ 2018-07-05T21:23:50+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.201908s][吞吐率：0.83req/s] [内存消耗：2,104.13kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '38',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '22',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025908s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.046800s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Function name must be a string[C:\php\PHPTutorial\WWW\tp5\application\index\controller\Index.php:216]
+---------------------------------------------------------------
+[ 2018-07-05T21:24:04+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.370021s][吞吐率：0.73req/s] [内存消耗：2,287.50kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022515s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:24:06+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.213803s][吞吐率：0.82req/s] [内存消耗：2,075.09kb] [文件加载：76]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '39',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '222',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003402s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:25:31+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.295020s][吞吐率：0.77req/s] [内存消耗：2,286.91kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002516s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:25:34+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.306803s][吞吐率：0.77req/s] [内存消耗：2,046.05kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '2222',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.044002s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , 1530797134 , 1 , 0 , 1530797134) [ RunTime:0.031200s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:25:59+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.354104s][吞吐率：0.74req/s] [内存消耗：2,046.05kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '2222222',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007903s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , 1530797159 , 1 , 0 , 1530797159) [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:27:25+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.383521s][吞吐率：0.72req/s] [内存消耗：2,286.91kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002501s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:27:28+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.305503s][吞吐率：0.77req/s] [内存消耗：2,046.77kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '54546',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.045201s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.031201s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '54546' , 1530797248 , 1 , 0 , 1530797248) [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:28:31+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.280211s][吞吐率：0.78req/s] [内存消耗：2,046.77kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '54546',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015011s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '54546' , 1530797310 , 1 , 0 , 1530797310) [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:31:07+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.425022s][吞吐率：0.70req/s] [内存消耗：2,441.59kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.032500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:31:09+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.251505s][吞吐率：0.80req/s] [内存消耗：2,046.73kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.028604s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.036200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '' , 1530797469 , 1 , 0 , 1530797469) [ RunTime:0.020000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:31:15+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.301804s][吞吐率：0.77req/s] [内存消耗：2,046.77kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '23232',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.045201s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031201s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '23232' , 1530797475 , 1 , 0 , 1530797475) [ RunTime:0.031200s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:36:35+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.290020s][吞吐率：0.78req/s] [内存消耗：2,441.62kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.035000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:36:38+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.310105s][吞吐率：0.76req/s] [内存消耗：2,046.77kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '12121',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.055404s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '12121' , 1530797798 , 1 , 0 , 1530797798) [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:36:41+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.377521s][吞吐率：0.73req/s] [内存消耗：2,287.00kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005015s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.032501s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:40:15+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.438523s][吞吐率：0.70req/s] [内存消耗：2,441.68kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012516s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.032500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:40:27+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.257520s][吞吐率：0.80req/s] [内存消耗：2,287.06kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012515s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:40:49+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.372521s][吞吐率：0.73req/s] [内存消耗：2,441.68kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012516s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.032500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:42:13+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.285020s][吞吐率：0.78req/s] [内存消耗：2,441.68kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.012501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:42:17+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.183306s][吞吐率：0.85req/s] [内存消耗：2,046.77kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '2142',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013704s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '2142' , 1530798137 , 1 , 0 , 1530798137) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:42:37+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.362521s][吞吐率：0.73req/s] [内存消耗：2,441.68kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027516s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:42:48+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.275705s][吞吐率：0.78req/s] [内存消耗：2,046.77kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '2143',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023503s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031201s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '2143' , 1530798168 , 1 , 0 , 1530798168) [ RunTime:0.031200s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:43:44+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.407521s][吞吐率：0.71req/s] [内存消耗：2,441.68kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007516s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:43:50+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.297206s][吞吐率：0.77req/s] [内存消耗：2,046.77kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '2143',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.035403s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.017501s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '2143' , 1530798230 , 1 , 0 , 1530798230) [ RunTime:0.022500s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:50:53+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.395021s][吞吐率：0.72req/s] [内存消耗：2,441.74kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020015s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.035001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.032500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002501s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:50:56+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.299314s][吞吐率：0.77req/s] [内存消耗：2,046.77kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '2222',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030212s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '2222' , 1530798656 , 1 , 0 , 1530798656) [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:51:39+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.320020s][吞吐率：0.76req/s] [内存消耗：2,441.74kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:51:44+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.263209s][吞吐率：0.79req/s] [内存消耗：2,046.77kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '2222',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027208s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '2222' , 1530798704 , 1 , 0 , 1530798704) [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:54:08+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.390022s][吞吐率：0.72req/s] [内存消耗：2,441.74kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.032500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.017501s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:54:12+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.274615s][吞吐率：0.78req/s] [内存消耗：2,046.77kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '22222',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012611s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '22222' , 1530798852 , 1 , 0 , 1530798852) [ RunTime:0.017500s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:54:18+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.261415s][吞吐率：0.79req/s] [内存消耗：2,046.77kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '22222666',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.018911s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '22222666' , 1530798858 , 1 , 0 , 1530798858) [ RunTime:0.022501s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:55:29+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.307520s][吞吐率：0.76req/s] [内存消耗：2,287.13kb] [文件加载：82]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017516s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.017501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002501s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:56:05+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.396022s][吞吐率：0.72req/s] [内存消耗：2,441.74kb] [文件加载：84]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.032500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.035001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.022501s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T21:56:08+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.295505s][吞吐率：0.77req/s] [内存消耗：2,046.76kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '39',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '444',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012003s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.038700s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.020600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '444' , 1530798968 , 1 , 0 , 1530798968) [ RunTime:0.031200s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:16:11+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.400022s][吞吐率：0.71req/s] [内存消耗：2,452.61kb] [文件加载：85]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.022501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:16:53+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.365021s][吞吐率：0.73req/s] [内存消耗：2,297.99kb] [文件加载：83]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015015s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:16:56+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.385021s][吞吐率：0.72req/s] [内存消耗：2,297.99kb] [文件加载：83]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005015s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.017501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:19:39+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.380021s][吞吐率：0.72req/s] [内存消耗：2,452.48kb] [文件加载：85]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:19:43+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.403522s][吞吐率：0.71req/s] [内存消耗：2,297.87kb] [文件加载：83]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:21:29+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.452522s][吞吐率：0.69req/s] [内存消耗：2,452.84kb] [文件加载：85]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015015s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.032501s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.032500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.035001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.032500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:21:34+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.347521s][吞吐率：0.74req/s] [内存消耗：2,297.88kb] [文件加载：83]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022515s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.017501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:22:56+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.346021s][吞吐率：0.74req/s] [内存消耗：2,314.90kb] [文件加载：83]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.028501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:23:20+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.317520s][吞吐率：0.76req/s] [内存消耗：2,473.84kb] [文件加载：85]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017516s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:24:07+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.421022s][吞吐率：0.70req/s] [内存消耗：2,474.03kb] [文件加载：85]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.008516s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:24:42+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.223103s][吞吐率：0.82req/s] [内存消耗：2,047.36kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '6666',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.036502s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.031201s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '6666' , 1530800682 , 1 , 0 , 1530800682) [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:24:50+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.357521s][吞吐率：0.74req/s] [内存消耗：2,315.98kb] [文件加载：83]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:25:15+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.430022s][吞吐率：0.70req/s] [内存消耗：2,475.12kb] [文件加载：85]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.027501s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:25:21+08:00 ] 127.0.0.1 POST /index/index/comment.html
+[ info ] tp5.com/index/index/comment.html [运行时间：1.259404s][吞吐率：0.79req/s] [内存消耗：2,047.38kb] [文件加载：77]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '54',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/comment_html' => '',
+  'article_id' => '21',
+  'user_id' => '',
+  'user_comment' => '尔尔',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.034002s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.035600s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.018101s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user_comments` (`user_id` , `article_id` , `user_comment` , `create_time` , `status` , `reply_id` , `update_time`) VALUES (0 , 21 , '尔尔' , 1530800721 , 1 , 0 , 1530800721) [ RunTime:0.023100s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:25:24+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.297519s][吞吐率：0.77req/s] [内存消耗：2,317.50kb] [文件加载：83]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020015s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.022500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.017500s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2018-07-05T22:47:47+08:00 ] 127.0.0.1 GET /index/index/detail/id/21.html
+[ info ] tp5.com/index/index/detail/id/21.html [运行时间：1.382521s][吞吐率：0.72req/s] [内存消耗：2,317.84kb] [文件加载：83]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=h1a255f5fkj27k2q3q8hejhvm3; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/index/detail/id/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/detail/id/21_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html [ array (
+  0 => 'cateList',
+  1 => 'hotArtList',
+  2 => 'art',
+  3 => 'title',
+  4 => 'comment',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025016s ] mysql:host=localhost;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_site` [ RunTime:0.035000s ]
+[ sql ] [ SQL ] SELECT `is_open` FROM `zh_site` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 12 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] UPDATE `zh_article`  SET `pv` = `pv` + 1  WHERE  `id` = 21 [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]

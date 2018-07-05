@@ -4,6 +4,7 @@ namespace app\index\controller;
 use app\common\controller\Base;
 use app\common\model\Article;
 use app\common\model\ArtCate;
+use app\common\model\Comment;
 use think\facade\Request; //导入请求静态代理
 use think\Db;
 
@@ -131,6 +132,9 @@ class Index extends Base
             $this->view->assign('art',$art);
         }
         $this->view->assign('title','详情页');
+		
+		$comment=Comment::all();
+		$this->view->assign('comment',$comment);
         return $this->view->fetch('detail');
     }
 
@@ -211,17 +215,20 @@ class Index extends Base
 	 public function comment()
 	 {	
 		 $data = Request::param();
-		 //return ['status'=>1, 'message'=>'已'];
-		 
-
-            Db::table('zh_user_comment')
-            ->data([
-                'user_id'=>$data['user_id'],
+     
+            
+                
+           
+			$result = Comment::create([
+				'user_id'=>$data['user_id'],
                 'article_id'=>$data['article_id'],
 				'user_comment'=>$data['user_comment']
-            ])->insert();
+			]);
+			
+			if($result)
+			{
             return ['status'=>1, 'message'=>'成功评论'];
-                  
+            }      
         
 		 
 	 }
