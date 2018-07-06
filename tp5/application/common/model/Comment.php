@@ -20,7 +20,7 @@ class Comment extends Model
 	//自动完成设置
 	protected $auto = [];
 	// 仅新增时设置  
-	protected $insert = ['create_time','status'=>1,'reply_id'=>0];
+	protected $insert = ['create_time','status'=>1,];
 	//仅更新时设置
 	protected $update = ['update_time'];
 

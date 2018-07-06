@@ -84,7 +84,8 @@
 			</div>
 				<form style="margin-top:10px;" method="post" id="user_comment">
 				<input type="hidden" name="article_id" value="{$art.id}">
-				<input type="hidden" name="user_id" value="{$Think.session.user_id}">
+				<input type="hidden" name="user_id" value="{$art.user_id}">
+				<input type="hidden" name="reply_id" value="{$Think.session.user_id}">
 		
 				  <div class="form-group">	
 					<input type="text" class="form-control" id="content" value="" name="user_comment" placeholder="写下你的评论">
@@ -92,12 +93,20 @@
 				  <button id="comment" type="button" class="btn btn-default">提交</button>
 				   
 				</form>
+				
+				
+			      <div style="border:1px solid #DDDDDD;border-radius:5px; padding:10px 20px 0px 20px; margin:10px 0px 10px 0px;" 
+				  {empty name="$art.id"}
+				  class="hidden" 
+				  {/empty}
+				  > 
+				  
+				  {$art.id|getUserComment}
+				  				  
+				  </div>
 			 
-			 
-					{volist name="comment" id="vo"}
-				  <p>{$vo.user_id}回复{$vo.article_id}:{$vo.user_comment} </p>
-				  {/volist}
-			  <hr/>
+					
+			
           </div> 
 
          
@@ -212,6 +221,7 @@
               })
             })
           </script> 
+		   <!-- 处理评论功能 -->
 		  <script type="text/javascript">
 			  $(function(){
 				$('#comment').on('click',function(){
@@ -229,7 +239,50 @@
 						  alert(data.message);
 						 
 						//$('#content').text("Hello world!");
-							$('#content').attr("value","money");
+							//$('#content').attr("value","money");
+						 window.location.reload()
+						  //window.location.href = "{:url('index/index/')}";
+						break;
+						case 0:  //失败或验证不通过
+						case -1:
+						  alert(data.message);
+						  // window.location.back();
+						break;
+					  }
+
+					}
+				  })
+			  })
+			  })
+		   </script>
+		   <!-- 处理回复功能 -->
+		  <script type="text/javascript">
+			  $(function(){
+				$('#reply').on('click',function(){
+				var userId  =4
+                var artId   =22
+                var replyId =session.getValue("user_id")
+				var replyComment=$('#reply_comment1').val()
+				  //用ajax提交用户信息 
+				  //alert($('#reply_comment').serialize())
+				  $.ajax({
+					type: 'post',
+					url: "{:url('index/index/reply')}",
+					data: {
+                            user_id    :userId,
+                            article_id :artId,
+                            reply_id   :replyId,
+							reply_comment:replyComment,
+                          },
+					dataType: 'json',
+					success: function(data){
+					  switch (data.status)
+					  {
+						case 1:  //评论成功
+						  alert(data.message);
+						 
+						//$('#content').text("Hello world!");
+							//$('#content').attr("value","money");
 						 window.location.reload()
 						  //window.location.href = "{:url('index/index/')}";
 						break;

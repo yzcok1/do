@@ -1,11 +1,11 @@
-<?php /*a:6:{s:71:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\user\login.html";i:1530762535;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1530762535;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530781516;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530762535;s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530762535;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530762535;}*/ ?>
+<?php /*a:6:{s:71:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\user\login.html";i:1530838624;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1530838624;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530838624;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530838624;s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530838624;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530838624;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo htmlentities((isset($title) && ($title !== '')?$title:"页面标题")); ?></title>
 	<!-- 使用load标签加载资源文件 -->
-	
+	<link rel="stylesheet" type="text/css" href="/static/css/main.app.d2dd6db6ff3cb2a14307.css" />
 	<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css" />
 	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>

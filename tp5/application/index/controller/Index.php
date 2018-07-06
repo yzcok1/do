@@ -212,17 +212,37 @@ class Index extends Base
         }
     }
 	
+	//发表评论
 	 public function comment()
 	 {	
 		 $data = Request::param();
-     
-            
-                
-           
+	
+		return ['status'=>1, 'message'=>[$data['reply_id'],$data['article_id'],$data['user_id'],$data['user_comment']]];
 			$result = Comment::create([
 				'user_id'=>$data['user_id'],
+				'reply_id'=>$data['reply_id'],
                 'article_id'=>$data['article_id'],
 				'user_comment'=>$data['user_comment']
+			]);
+			
+			if($result)
+			{
+            return ['status'=>1, 'message'=>'成功评论'];
+            }      
+        
+		 
+	 }
+	 //发表回复
+	   public function reply()
+	 {	
+		 $data = Request::param();
+		
+		return ['status'=>1, 'message'=>[$data['reply_id'],$data['article_id'],$data['user_id'],$data['reply_comment']]];
+			$result = Comment::create([
+				'user_id'=>$data['user_id'],
+				'reply_id'=>$data['reply_id'],
+                'article_id'=>$data['article_id'],
+				'user_comment'=>$data['reply_comment']
 			]);
 			
 			if($result)

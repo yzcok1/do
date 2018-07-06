@@ -1,4 +1,4 @@
-<?php /*a:6:{s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\index\index.html";i:1530838624;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1530838624;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530838624;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530838624;s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530838624;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530838624;}*/ ?>
+<?php /*a:6:{s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\user\register.html";i:1530838624;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1530838624;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530838624;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530838624;s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530838624;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530838624;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -107,33 +107,87 @@
 
 
 
-	<div class="" style=" height:30px"></div>
 	<!-- 主体 -->
 	<div class="row">
 		<!-- 左侧8列 -->
 		<div class="col-md-8">
 		<!-- 页头 -->
 		<div class="page-header">
-  			<h3><?php echo htmlentities($cateName); ?></h3>
+  			<h2>用户注册</h2>
 		</div>
-		<?php if(is_array($artList) || $artList instanceof \think\Collection || $artList instanceof \think\Paginator): $i = 0; $__LIST__ = $artList;if( count($__LIST__)==0 ) : echo "$empty" ;else: foreach($__LIST__ as $key=>$art): $mod = ($i % 2 );++$i;?>
-		<div>			
-            <a href="<?php echo url('detail',['id'=>$art['id']]); ?>"><img class="img-rounded" src="/uploads/<?php echo htmlentities($art['title_img']); ?>"
-            style="margin-right: 10px;float: left;width: 100px;height: 85px"/></a>
-            <div class="content-detail" style="float: left;width: 80%">
-              <!-- 获取当前文章的id -->
-             <h4><a href="<?php echo url('detail',['id'=>$art['id']]); ?>"><?php echo htmlentities($art['title']); ?></a></h4>
-                <p>作者:<?php echo htmlentities(getUserName($art['user_id'])); ?>&nbsp;&nbsp;
-               发布时间：<?php echo htmlentities(date('Y年m月d日',!is_numeric($art['create_time'])? strtotime($art['create_time']) : $art['create_time'])); ?>&nbsp;&nbsp;
-			   浏览:<?php echo htmlentities($art['pv']); ?>&nbsp;&nbsp;
-               </p>
-               <div><?php echo mb_substr(strip_tags($art['content']),0,30); ?></div>
-              <hr/>
-          </div>                
-   		</div>
-            <?php endforeach; endif; else: echo "$empty" ;endif; ?>
+		<!-- 注册表单:采用水平表单 -->
+		<form class="form-horizontal" method="post" id="login">
+  <div class="form-group">
+    <label for="inputEmail1" class="col-sm-2 control-label">用户名:</label>
+    <div class="col-sm-10">
+      <input type="text" name="name" class="form-control" id="inputEmail1" placeholder="UserName">
+    </div>
+  </div>
 
-        <div class="text-center"><?php echo $artList; ?></div>     
+  <div class="form-group">
+    <label for="inputEmail2" class="col-sm-2 control-label">邮箱:</label>
+    <div class="col-sm-10">
+      <input type="text" name="email" class="form-control" id="inputEmail2" placeholder="Email">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">手机:</label>
+    <div class="col-sm-10">
+      <input type="text" name="mobile" class="form-control" id="inputEmail3" placeholder="Mobile">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputPassword4" class="col-sm-2 control-label">密码:</label>
+    <div class="col-sm-10">
+      <input type="password" name="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputPassword5" class="col-sm-2 control-label">确认密码:</label>
+    <div class="col-sm-10">
+      <input type="password" name="password_confirm" class="form-control" id="inputPassword5" placeholder="Password Confirm">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="button" class="btn btn-primary" id="register">注册</button>
+    </div>
+  </div>
+</form>
+
+	<!-- ajax提交当前表单 -->
+<script type="text/javascript">
+  $(function(){
+    $('#register').on('click',function(){
+      //用ajax提交用户信息 
+      $.ajax({
+        type: 'post',
+        url: "<?php echo url('insert'); ?>",
+        data: $('#login').serialize(),
+        dataType: 'json',
+        success: function(data){
+          switch (data.status)
+          {
+            case 1:
+              alert(data.message);
+              window.location.href = "<?php echo url('index/index'); ?>";
+            break;
+            case 0:
+            case -1:
+              alert(data.message);
+              window.location.back();
+            break;
+          }
+
+        }
+      })
+  })
+  })
+</script>	 
 
 
 <!-- 右侧4列 -->

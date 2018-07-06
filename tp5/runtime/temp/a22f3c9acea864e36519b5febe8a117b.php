@@ -1,4 +1,4 @@
-<?php /*a:6:{s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\index\detail.html";i:1530786903;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1530762535;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530782042;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530762535;s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530762535;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530762535;}*/ ?>
+<?php /*a:6:{s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\index\detail.html";i:1530872917;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1530838624;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530838624;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530838624;s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530838624;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530838624;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -186,22 +186,34 @@
 							</path>
 						</svg>
 					</span>
-					感谢
+					点赞
 				</button>
 			</div>
 				<form style="margin-top:10px;" method="post" id="user_comment">
 				<input type="hidden" name="article_id" value="<?php echo htmlentities($art['id']); ?>">
-				<input type="hidden" name="user_id" value="<?php echo htmlentities(app('session')->get('user_id')); ?>">
+				<input type="hidden" name="user_id" value="<?php echo htmlentities($art['user_id']); ?>">
+				<input type="hidden" name="reply_id" value="<?php echo htmlentities(app('session')->get('user_id')); ?>">
 		
 				  <div class="form-group">	
-					<input type="text" class="form-control" name="user_comment" placeholder="写下你的评论">
+					<input type="text" class="form-control" id="content" value="" name="user_comment" placeholder="写下你的评论">
 				  </div>
-				  <button id="comment" type="button" class="btn btn-default">评论</button>
+				  <button id="comment" type="button" class="btn btn-default">提交</button>
+				   
 				</form>
+				
+				
+			      <div style="border:1px solid #DDDDDD;border-radius:5px; padding:10px 20px 0px 20px; margin:10px 0px 10px 0px;" 
+				  <?php if(empty($art['id']) || (($art['id'] instanceof \think\Collection || $art['id'] instanceof \think\Paginator ) && $art['id']->isEmpty())): ?>
+				  class="hidden" 
+				  <?php endif; ?>
+				  > 
+				  
+				  <?php echo htmlentities(getUserComment($art['id'])); ?>
+				  				  
+				  </div>
 			 
-			 
-			 
-			  <hr/>
+					
+			
           </div> 
 
          
@@ -316,6 +328,7 @@
               })
             })
           </script> 
+		   <!-- 处理评论功能 -->
 		  <script type="text/javascript">
 			  $(function(){
 				$('#comment').on('click',function(){
@@ -331,12 +344,59 @@
 					  {
 						case 1:  //评论成功
 						  alert(data.message);
-						  //window.location.href = "<?php echo url('index/index'); ?>";
+						 
+						//$('#content').text("Hello world!");
+							//$('#content').attr("value","money");
+						 window.location.reload()
+						  //window.location.href = "<?php echo url('index/index/'); ?>";
 						break;
 						case 0:  //失败或验证不通过
 						case -1:
 						  alert(data.message);
-						  //window.location.back();
+						  // window.location.back();
+						break;
+					  }
+
+					}
+				  })
+			  })
+			  })
+		   </script>
+		   <!-- 处理回复功能 -->
+		  <script type="text/javascript">
+			  $(function(){
+				$('#reply').on('click',function(){
+				var userId  =4
+                var artId   =22
+                var replyId =session.getValue("user_id")
+				var replyComment=$('#reply_comment1').val()
+				  //用ajax提交用户信息 
+				  //alert($('#reply_comment').serialize())
+				  $.ajax({
+					type: 'post',
+					url: "<?php echo url('index/index/reply'); ?>",
+					data: {
+                            user_id    :userId,
+                            article_id :artId,
+                            reply_id   :replyId,
+							reply_comment:replyComment,
+                          },
+					dataType: 'json',
+					success: function(data){
+					  switch (data.status)
+					  {
+						case 1:  //评论成功
+						  alert(data.message);
+						 
+						//$('#content').text("Hello world!");
+							//$('#content').attr("value","money");
+						 window.location.reload()
+						  //window.location.href = "<?php echo url('index/index/'); ?>";
+						break;
+						case 0:  //失败或验证不通过
+						case -1:
+						  alert(data.message);
+						  // window.location.back();
 						break;
 					  }
 
