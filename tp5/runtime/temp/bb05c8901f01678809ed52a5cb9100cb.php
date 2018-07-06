@@ -1,4 +1,4 @@
-<?php /*a:6:{s:67:"C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html";i:1530800711;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1529335299;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530793475;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530722299;s:67:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530693441;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530187131;}*/ ?>
+<?php /*a:6:{s:67:"C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html";i:1530890701;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1529335299;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530793475;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530722299;s:67:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530693441;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530187131;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -191,7 +191,8 @@
 			</div>
 				<form style="margin-top:10px;" method="post" id="user_comment">
 				<input type="hidden" name="article_id" value="<?php echo htmlentities($art['id']); ?>">
-				<input type="hidden" name="user_id" value="<?php echo htmlentities(app('session')->get('user_id')); ?>">
+				<input type="hidden" name="user_id" value="<?php echo htmlentities($art['user_id']); ?>">
+				<input type="hidden" name="reply_id" value="<?php echo htmlentities(app('session')->get('user_id')); ?>">
 		
 				  <div class="form-group">	
 					<input type="text" class="form-control" id="content" value="" name="user_comment" placeholder="写下你的评论">
@@ -199,12 +200,33 @@
 				  <button id="comment" type="button" class="btn btn-default">提交</button>
 				   
 				</form>
-			 
-			 
+				
+				
+			      <div style="border:1px solid #DDDDDD;border-radius:5px; padding:10px 20px 0px 20px; margin:10px 0px 10px 0px;" > 
 					<?php if(is_array($comment) || $comment instanceof \think\Collection || $comment instanceof \think\Paginator): $i = 0; $__LIST__ = $comment;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-				  <p><?php echo htmlentities($vo['user_id']); ?>回复<?php echo htmlentities($vo['article_id']); ?>:<?php echo htmlentities($vo['user_comment']); ?> </p>
-				  <?php endforeach; endif; else: echo "" ;endif; ?>
-			  <hr/>
+					
+					<div ><p><?php echo htmlentities(getUserName($vo['reply_id'])); ?>&nbsp回复&nbsp<?php echo htmlentities(getUserName($vo['user_id'])); ?>  </p></div>
+					<p><?php echo htmlentities($vo['user_comment']); ?></p>
+					<p><?php echo htmlentities($vo['create_time']); ?></p>
+					
+					
+					<div class="form-group" id="reply_comment">
+					<input type="hidden" name="article_id" value="<?php echo htmlentities($art['id']); ?>">
+					<input type="hidden" name="user_id" value="<?php echo htmlentities($vo['user_id']); ?>">
+					<input type="hidden" name="reply_id" value="<?php echo htmlentities(app('session')->get('user_id')); ?>">
+					<input type="text" class="form-control" id="" value="" name="reply_comment" placeholder="写下你的评论">
+				  </div>
+				  <button id="reply" type="button" class="btn btn-default">提交</button>
+				  <button id="del" name="id" value="<?php echo htmlentities($vo['id']); ?>" type="button" class="btn btn-default">删除</button>
+					<hr>
+					<?php endforeach; endif; else: echo "" ;endif; ?>
+				  
+				 
+				  				  
+				  </div>
+			 
+					
+			
           </div> 
 
          
@@ -319,6 +341,7 @@
               })
             })
           </script> 
+		   <!-- 处理评论功能 -->
 		  <script type="text/javascript">
 			  $(function(){
 				$('#comment').on('click',function(){
@@ -336,7 +359,7 @@
 						  alert(data.message);
 						 
 						//$('#content').text("Hello world!");
-							$('#content').attr("value","money");
+							//$('#content').attr("value","money");
 						 window.location.reload()
 						  //window.location.href = "<?php echo url('index/index/'); ?>";
 						break;
@@ -352,6 +375,72 @@
 			  })
 			  })
 		   </script>
+		   <!-- 处理回复功能 -->
+		  <script type="text/javascript">
+			  $(function(){
+				$('#reply').on('click',function(){
+				
+				  //用ajax提交用户信息 
+				  //alert($('#reply_comment').serialize())
+				  $.ajax({
+					type: 'post',
+					url: "<?php echo url('index/index/reply'); ?>",
+					data:$('#reply_comment').serialize(),
+					dataType: 'json',
+					success: function(data){
+					  switch (data.status)
+					  {
+						case 1:  //评论成功
+						  alert(data.message);
+						 
+						//$('#content').text("Hello world!");
+							//$('#content').attr("value","money");
+						 window.location.reload()
+						  //window.location.href = "<?php echo url('index/index/'); ?>";
+						break;
+						case 0:  //失败或验证不通过
+						case -1:
+						  alert(data.message);
+						  // window.location.back();
+						break;
+					  }
+
+					}
+				  })
+			  })
+			  })
+		   </script>
+		   <!--删除评论--->
+		   <script type="text/javascript">
+		   $(funtion(){
+				$('#del').on('click',function(){
+					alert($('#reply_comment').serialize())
+			
+					$.ajax({
+					type:'post',
+					url:"<?php echo url('index/index/del'); ?>";
+					data:$('#reply_comment').serialize(),
+					dataType:'json',
+					success:function(){
+						switch(data.status)
+						{
+						case 1:
+							alert(data.message);
+							windows.location.reload()
+							break
+						
+						
+						}
+					}
+					})
+				
+				
+				})
+		   
+		   
+		   }
+		   </script>
+		   
 
 
 <!-- 右侧4列 -->

@@ -95,13 +95,26 @@
 				</form>
 				
 				
-			      <div style="border:1px solid #DDDDDD;border-radius:5px; padding:10px 20px 0px 20px; margin:10px 0px 10px 0px;" 
-				  {empty name="$art.id"}
-				  class="hidden" 
-				  {/empty}
-				  > 
+			      <div style="border:1px solid #DDDDDD;border-radius:5px; padding:10px 20px 0px 20px; margin:10px 0px 10px 0px;" > 
+					{volist name="comment" id="vo"}
+					
+					<div ><p>{$vo.reply_id|getUserName}&nbsp回复&nbsp{$vo.user_id|getUserName}  </p></div>
+					<p>{$vo.user_comment}</p>
+					<p>{$vo.create_time}</p>
+					
+					
+					<div class="form-group" id="reply_comment">
+					<input type="hidden" name="article_id" value="{$art.id}">
+					<input type="hidden" name="user_id" value="{$vo.user_id}">
+					<input type="hidden" name="reply_id" value="{$Think.session.user_id}">
+					<input type="text" class="form-control" id="" value="" name="reply_comment" placeholder="写下你的评论">
+				  </div>
+				  <button id="reply" type="button" class="btn btn-default">提交</button>
+				  <button id="del" name="id" value="{$vo.id}" type="button" class="btn btn-default">删除</button>
+					<hr>
+					{/volist}
 				  
-				  {$art.id|getUserComment}
+				 
 				  				  
 				  </div>
 			 
@@ -259,21 +272,13 @@
 		  <script type="text/javascript">
 			  $(function(){
 				$('#reply').on('click',function(){
-				var userId  =4
-                var artId   =22
-                var replyId =session.getValue("user_id")
-				var replyComment=$('#reply_comment1').val()
+				
 				  //用ajax提交用户信息 
 				  //alert($('#reply_comment').serialize())
 				  $.ajax({
 					type: 'post',
 					url: "{:url('index/index/reply')}",
-					data: {
-                            user_id    :userId,
-                            article_id :artId,
-                            reply_id   :replyId,
-							reply_comment:replyComment,
-                          },
+					data:$('#reply_comment').serialize(),
 					dataType: 'json',
 					success: function(data){
 					  switch (data.status)
@@ -298,4 +303,35 @@
 			  })
 			  })
 		   </script>
+		   <!--删除评论--->
+		   <script type="text/javascript">
+		   $(funtion(){
+				$('#del').on('click',function(){
+					alert($('#reply_comment').serialize())
+			
+					$.ajax({
+					type:'post',
+					url:"{:url('index/index/del')}";
+					data:$('#reply_comment').serialize(),
+					dataType:'json',
+					success:function(){
+						switch(data.status)
+						{
+						case 1:
+							alert(data.message);
+							windows.location.reload()
+							break
+						
+						
+						}
+					}
+					})
+				
+				
+				})
+		   
+		   
+		   }
+		   </script>
+		   
 {/block}

@@ -133,7 +133,7 @@ class Index extends Base
         }
         $this->view->assign('title','详情页');
 		
-		$comment=Comment::all();
+		$comment=Comment::where('article_id',$artId)->select();
 		$this->view->assign('comment',$comment);
         return $this->view->fetch('detail');
     }
@@ -217,7 +217,7 @@ class Index extends Base
 	 {	
 		 $data = Request::param();
 	
-		return ['status'=>1, 'message'=>[$data['reply_id'],$data['article_id'],$data['user_id'],$data['user_comment']]];
+		//return ['status'=>1, 'message'=>[$data['reply_id'],$data['article_id'],$data['user_id'],$data['user_comment']]];
 			$result = Comment::create([
 				'user_id'=>$data['user_id'],
 				'reply_id'=>$data['reply_id'],
@@ -248,8 +248,12 @@ class Index extends Base
 			if($result)
 			{
             return ['status'=>1, 'message'=>'成功评论'];
-            }      
-        
+            }       
+	 }
+	 //删除评论
+	 public function del(){
+		 $data=Request::param();
+		 return ['status'=>1,'message'=>$data[id]];
 		 
 	 }
 

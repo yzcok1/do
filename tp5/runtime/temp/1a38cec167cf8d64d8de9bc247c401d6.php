@@ -1,14 +1,14 @@
-<?php /*a:6:{s:68:"C:\php\PHPTutorial\WWW\tp5\application/index/view\user\register.html";i:1529335299;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1529335299;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1529335299;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530722299;s:67:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530693441;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530187131;}*/ ?>
+<?php /*a:6:{s:68:"C:\php\PHPTutorial\WWW\tp5\application/index/view\user\register.html";i:1529335299;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1529335299;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530793475;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530722299;s:67:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530693441;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530187131;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo htmlentities((isset($title) && ($title !== '')?$title:"页面标题")); ?></title>
 	<!-- 使用load标签加载资源文件 -->
+	<link rel="stylesheet" type="text/css" href="/static/css/main.app.d2dd6db6ff3cb2a14307.css" />
 	<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css" />
 	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
-
 	<script type="text/javascript" src="/static/nicedit/nicEdit.js"></script>
 </head>
 <body>
