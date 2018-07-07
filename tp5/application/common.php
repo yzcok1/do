@@ -35,7 +35,7 @@ if(!function_exists('getUserComment'))
 	function getUserComment($id)
 	{
 	$result= Db::table('zh_user_comments')->field('user_id,reply_id,article_id,user_comment,create_time')->where(['article_id'=>$id])->select();
-	//return dump($result);
+	return count($result);
 
 	/* //创建表格将数组循环输入
     echo '<table border="1" width="600" >';

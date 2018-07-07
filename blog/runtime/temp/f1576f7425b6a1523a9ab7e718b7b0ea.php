@@ -1,14 +1,14 @@
-<?php /*a:6:{s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\user\register.html";i:1530929840;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1530929840;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530929840;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530929840;s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530929840;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530929840;}*/ ?>
+<?php /*a:6:{s:72:"D:\myphp_www\PHPTutorial\WWW\blog\application/index/view\user\login.html";i:1530929839;s:73:"D:\myphp_www\PHPTutorial\WWW\blog\application/index/view\public\base.html";i:1530929839;s:76:"D:\myphp_www\PHPTutorial\WWW\blog\application/index/view\public\\header.html";i:1530929839;s:73:"D:\myphp_www\PHPTutorial\WWW\blog\application/index/view\public\\nav.html";i:1530929839;s:74:"D:\myphp_www\PHPTutorial\WWW\blog\application/index/view\public\right.html";i:1530929839;s:76:"D:\myphp_www\PHPTutorial\WWW\blog\application/index/view\public\\footer.html";i:1530929839;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo htmlentities((isset($title) && ($title !== '')?$title:"页面标题")); ?></title>
 	<!-- 使用load标签加载资源文件 -->
-	<link rel="stylesheet" type="text/css" href="/static/css/main.app.d2dd6db6ff3cb2a14307.css" />
 	<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css" />
 	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
 	<script type="text/javascript" src="/static/nicedit/nicEdit.js"></script>
 </head>
 <body>
@@ -31,24 +31,25 @@
       </button>
       <a class="navbar-brand" href="<?php echo url('index/index'); ?>"><?php echo htmlentities((isset($siteName) && ($siteName !== '')?$siteName:"社区问答")); ?></a>
     </div>
-	
+
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li
         
-        <?php if(empty(app('request')->param('cate_id')) || ((app('request')->param('cate_id') instanceof \think\Collection || app('request')->param('cate_id') instanceof \think\Paginator ) && app('request')->param('cate_id')->isEmpty())): if(empty(app('request')->param('id')) || ((app('request')->param('id') instanceof \think\Collection || app('request')->param('id') instanceof \think\Paginator ) && app('request')->param('id')->isEmpty())): ?>
+        <?php if(empty(app('request')->param('cate_id')) || ((app('request')->param('cate_id') instanceof \think\Collection || app('request')->param('cate_id') instanceof \think\Paginator ) && app('request')->param('cate_id')->isEmpty())): ?>
         class="active"
-		<?php endif; endif; ?>
-		
+        <?php endif; ?>
         ><a href="<?php echo url('index/index/index'); ?>">首页</a></li>
         <?php if(is_array($cateList) || $cateList instanceof \think\Collection || $cateList instanceof \think\Paginator): $i = 0; $__LIST__ = $cateList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cate): $mod = ($i % 2 );++$i;?>
         <li
         
+        <?php if($cate['id'] == app('request')->param('cate_id')): ?>  
+         class="active"
+        <?php endif; ?>
 
-		<?php if($cate['id']==app('request')->param('cate_id')): ?>class="active"<?php endif; if($cate['id'] == $art['cate_id']): ?>class="active"<?php endif; ?>
-		
-		><a href="<?php echo url('index/index',['cate_id'=> $cate['id']]); ?>"><?php echo htmlentities($cate['name']); ?></a></li>
+
+         ><a href="<?php echo url('index/index',['cate_id'=> $cate['id']]); ?>"><?php echo htmlentities($cate['name']); ?></a></li>
         <?php endforeach; endif; else: echo "" ;endif; ?>
         
       </ul>
@@ -90,8 +91,6 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
-	
 			</div>
 		</div>
 <!-- 头部结束-->
@@ -113,16 +112,11 @@
 		<div class="col-md-8">
 		<!-- 页头 -->
 		<div class="page-header">
-  			<h2>用户注册</h2>
+  			<h2>用户登录</h2>
 		</div>
 		<!-- 注册表单:采用水平表单 -->
 		<form class="form-horizontal" method="post" id="login">
-  <div class="form-group">
-    <label for="inputEmail1" class="col-sm-2 control-label">用户名:</label>
-    <div class="col-sm-10">
-      <input type="text" name="name" class="form-control" id="inputEmail1" placeholder="UserName">
-    </div>
-  </div>
+  
 
   <div class="form-group">
     <label for="inputEmail2" class="col-sm-2 control-label">邮箱:</label>
@@ -131,12 +125,7 @@
     </div>
   </div>
 
-  <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label">手机:</label>
-    <div class="col-sm-10">
-      <input type="text" name="mobile" class="form-control" id="inputEmail3" placeholder="Mobile">
-    </div>
-  </div>
+  
 
   <div class="form-group">
     <label for="inputPassword4" class="col-sm-2 control-label">密码:</label>
@@ -145,38 +134,31 @@
     </div>
   </div>
 
-  <div class="form-group">
-    <label for="inputPassword5" class="col-sm-2 control-label">确认密码:</label>
-    <div class="col-sm-10">
-      <input type="password" name="password_confirm" class="form-control" id="inputPassword5" placeholder="Password Confirm">
-    </div>
-  </div>
   
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="button" class="btn btn-primary" id="register">注册</button>
+      <button type="button" class="btn btn-primary" id="submit">登录</button>
     </div>
   </div>
 </form>
-
-	<!-- ajax提交当前表单 -->
+	<!-- ajax提交当前表单 -->	 
 <script type="text/javascript">
   $(function(){
-    $('#register').on('click',function(){
+    $('#submit').on('click',function(){
       //用ajax提交用户信息 
       $.ajax({
         type: 'post',
-        url: "<?php echo url('insert'); ?>",
+        url: "<?php echo url('loginCheck'); ?>",
         data: $('#login').serialize(),
         dataType: 'json',
         success: function(data){
           switch (data.status)
           {
-            case 1:
+            case 1:  //登录成功跳到首页
               alert(data.message);
               window.location.href = "<?php echo url('index/index'); ?>";
             break;
-            case 0:
+            case 0:  //失败或验证不通过返回登录页
             case -1:
               alert(data.message);
               window.location.back();
@@ -187,13 +169,13 @@
       })
   })
   })
-</script>	 
+</script>
 
 
 <!-- 右侧4列 -->
 	</div>
 		<div class="col-md-4">
-			<div class="page-header"> <h3>热门浏览</h3> </div> 
+			<div class="page-header"> <h2>热门浏览</h2> </div> 
 			<!-- 列表使用:列表组来做 -->
 			<div class="list-group">
 				<?php if(is_array($hotArtList) || $hotArtList instanceof \think\Collection || $hotArtList instanceof \think\Paginator): $i = 0; $__LIST__ = $hotArtList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$art): $mod = ($i % 2 );++$i;?>

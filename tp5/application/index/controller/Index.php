@@ -237,7 +237,7 @@ class Index extends Base
 	 {	
 		 $data = Request::param();
 		
-		return ['status'=>1, 'message'=>[$data['reply_id'],$data['article_id'],$data['user_id'],$data['reply_comment']]];
+		//return ['status'=>1, 'message'=>[$data['reply_id'],$data['article_id'],$data['user_id'],$data['reply_comment']]];
 			$result = Comment::create([
 				'user_id'=>$data['user_id'],
 				'reply_id'=>$data['reply_id'],
@@ -253,7 +253,12 @@ class Index extends Base
 	 //删除评论
 	 public function del(){
 		 $data=Request::param();
-		 return ['status'=>1,'message'=>$data[id]];
+		 //return ['status'=>1,'message'=>$data['id']];
+		 $result = Comment::where('id',$data['id'])->delete();
+			if($result)
+			{
+            return ['status'=>1, 'message'=>'已删除改评论'];
+            }       
 		 
 	 }
 
