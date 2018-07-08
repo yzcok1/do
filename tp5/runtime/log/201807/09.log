@@ -1,0 +1,172 @@
+---------------------------------------------------------------
+[ 2018-07-09T00:25:37+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：1.550089s][吞吐率：0.65req/s] [内存消耗：2,232.66kb] [文件加载：131]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=21d839n906k1b7knud4pptpc65; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 250[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 250[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 268[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 423[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 511[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 515[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]file_put_contents(/static/image/a301d644ac77e6ad9112b9be3b730a8f.jpg): failed to open stream: No such file or directory[C:\php\PHPTutorial\WWW\tp5\application\index\controller\Test.php:35]
+---------------------------------------------------------------
+[ 2018-07-09T00:26:03+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：1.376079s][吞吐率：0.73req/s] [内存消耗：2,230.48kb] [文件加载：131]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=21d839n906k1b7knud4pptpc65; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 250[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 250[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 268[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 423[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 511[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 515[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]file_put_contents(image/a301d644ac77e6ad9112b9be3b730a8f.jpg): failed to open stream: No such file or directory[C:\php\PHPTutorial\WWW\tp5\application\index\controller\Test.php:27]
+---------------------------------------------------------------
+[ 2018-07-09T00:26:36+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：1.420081s][吞吐率：0.70req/s] [内存消耗：2,251.98kb] [文件加载：131]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=21d839n906k1b7knud4pptpc65; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 250[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 250[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 268[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 423[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 511[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 515[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-07-09T00:26:36+08:00 ] 127.0.0.1 GET /index/test/static/image/a301d644ac77e6ad9112b9be3b730a8f.jpg
+[ info ] tp5.com/index/test/static/image/a301d644ac77e6ad9112b9be3b730a8f.jpg [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：915.38kb] [文件加载：85]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=21d839n906k1b7knud4pptpc65; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/test/index',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/static/image/a301d644ac77e6ad9112b9be3b730a8f_jpg' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-09T00:26:48+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：1.437083s][吞吐率：0.70req/s] [内存消耗：2,251.98kb] [文件加载：131]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=21d839n906k1b7knud4pptpc65; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 250[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 250[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 268[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 423[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 511[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 515[C:\php\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-07-09T00:26:48+08:00 ] 127.0.0.1 GET /index/test/static/image/a301d644ac77e6ad9112b9be3b730a8f.jpg
+[ info ] tp5.com/index/test/static/image/a301d644ac77e6ad9112b9be3b730a8f.jpg [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：915.38kb] [文件加载：85]
+[ info ] [ LANG ] C:\php\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7137912832; PHPSESSID=21d839n906k1b7knud4pptpc65; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/index/test/index',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/static/image/a301d644ac77e6ad9112b9be3b730a8f_jpg' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File

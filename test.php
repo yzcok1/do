@@ -33,7 +33,7 @@ $data = $ql->getData(function($item){
   $content = QueryList::html($item['content']);
   $content->find('img')->map(function($img){
       $src = 'http://cms.querylist.cc'.$img->src;
-      $localSrc = 'static/image/'.md5($src).'.jpg';
+      $localSrc = 'image/'.md5($src).'.jpg';
       $stream = file_get_contents($src);
       file_put_contents($localSrc,$stream);
       $img->attr('src',$localSrc);
