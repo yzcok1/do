@@ -11,7 +11,8 @@
 
 // [ 应用入口文件 ]
 namespace think;
-
+//加上下面这一句话，用于自动加载QueryList
+require 'vendor/autoload.php';
 // 加载基础文件
 require __DIR__ . '/../thinkphp/base.php';
 

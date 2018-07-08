@@ -1,4 +1,4 @@
-<?php /*a:6:{s:67:"C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html";i:1530890701;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1529335299;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530793475;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530722299;s:67:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530693441;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530187131;}*/ ?>
+<?php /*a:6:{s:67:"C:\php\PHPTutorial\WWW\tp5\application/index/view\index\detail.html";i:1530969034;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1529335299;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530793475;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530722299;s:67:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530693441;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530187131;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -136,7 +136,7 @@
 			<div class="ContentItem-actions">
 				<span>
 				</span>
-				<button type="button" class="Button ContentItem-action Button--plain Button--withIcon Button--withLabel">
+				<button type="button" id="open" class="Button ContentItem-action1 Button--plain Button--withIcon Button--withLabel">
 					<span style="display: inline-flex; align-items: center;">​
 						<svg class="Zi Zi--Comment Button-zi" fill="currentColor" viewBox="0 0 24 24"
 						width="1.2em" height="1.2em">
@@ -147,6 +147,8 @@
 					</span>
 					评论
 				</button>
+				
+				
 				<div class="Popover ShareMenu ContentItem-action">
 					<div class="" id="Popover6-toggle" aria-haspopup="true" aria-expanded="false"
 					aria-owns="Popover6-content">
@@ -188,45 +190,85 @@
 					</span>
 					点赞
 				</button>
-			</div>
-				<form style="margin-top:10px;" method="post" id="user_comment">
-				<input type="hidden" name="article_id" value="<?php echo htmlentities($art['id']); ?>">
-				<input type="hidden" name="user_id" value="<?php echo htmlentities($art['user_id']); ?>">
-				<input type="hidden" name="reply_id" value="<?php echo htmlentities(app('session')->get('user_id')); ?>">
-		
-				  <div class="form-group">	
-					<input type="text" class="form-control" id="content" value="" name="user_comment" placeholder="写下你的评论">
-				  </div>
-				  <button id="comment" type="button" class="btn btn-default">提交</button>
-				   
+				</div>
+			
+				<!--回复作者-->
+				<form style="margin-top:10px;display:none;"   method="post" id="user_comment"  >
+						<input type="hidden" name="article_id" value="<?php echo htmlentities($art['id']); ?>">
+						<input type="hidden" name="user_id" value="<?php echo htmlentities($art['user_id']); ?>">
+						<input type="hidden" name="reply_id" value="<?php echo htmlentities(app('session')->get('user_id')); ?>">
+				
+						  <div class="form-group">	
+							<input type="text" class="form-control" id="content" value="" name="user_comment" placeholder="写下你的评论">
+						  </div>
+						  
+						  <button type="button" id="comment" class="Button  Button--plain Button--withIcon Button--withLabel">
+							<span style="display: inline-flex; align-items: center;">​
+								<svg class="Zi Zi--Comment Button-zi" fill="currentColor" viewBox="0 0 24 24"
+								width="1.2em" height="1.2em">
+									<path d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z"
+									fill-rule="evenodd">
+									</path>
+								</svg>
+							</span>
+							提交
+						</button>
 				</form>
-				
-				
-			      <div style="border:1px solid #DDDDDD;border-radius:5px; padding:10px 20px 0px 20px; margin:10px 0px 10px 0px;" > 
+			      <div style="border:1px solid #DDDDDD;border-radius:5px; padding:10px 20px 0px 20px; margin:10px 0px 10px 0px;" <?php if(getUserComment($art['id']) == '0'): ?>class="hidden"<?php endif; ?>> 
 					<?php if(is_array($comment) || $comment instanceof \think\Collection || $comment instanceof \think\Paginator): $i = 0; $__LIST__ = $comment;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-					
 					<div ><p><?php echo htmlentities(getUserName($vo['reply_id'])); ?>&nbsp回复&nbsp<?php echo htmlentities(getUserName($vo['user_id'])); ?>  </p></div>
 					<p><?php echo htmlentities($vo['user_comment']); ?></p>
 					<p><?php echo htmlentities($vo['create_time']); ?></p>
+					<p><?php echo htmlentities($vo['id']); ?></p>
 					
-					
-					<div class="form-group" id="reply_comment">
-					<input type="hidden" name="article_id" value="<?php echo htmlentities($art['id']); ?>">
-					<input type="hidden" name="user_id" value="<?php echo htmlentities($vo['user_id']); ?>">
-					<input type="hidden" name="reply_id" value="<?php echo htmlentities(app('session')->get('user_id')); ?>">
-					<input type="text" class="form-control" id="" value="" name="reply_comment" placeholder="写下你的评论">
-				  </div>
-				  <button id="reply" type="button" class="btn btn-default">提交</button>
-				  <button id="del" name="id" value="<?php echo htmlentities($vo['id']); ?>" type="button" class="btn btn-default">删除</button>
+					<!--回复用户-->
+					<form style="margin-top:10px;" method="post" class="reply_comment" name="" >
+							<div class="form-group ">
+							<input type="hidden" name="id" value="<?php echo htmlentities($vo['id']); ?>">
+							<input type="hidden" name="article_id" value="<?php echo htmlentities($vo['article_id']); ?>">
+							<input type="hidden" name="user_id" value="<?php echo htmlentities($vo['reply_id']); ?>">
+							<input type="hidden" name="reply_id" value="<?php echo htmlentities(app('session')->get('user_id')); ?>">
+							<input type="text" class="form-control "  value="" name="reply_comment" placeholder="写下你的评论">
+						  </div>
+						  
+						  
+						  <button type="button"  class="Button ContentItem-action1 Button--plain Button--withIcon Button--withLabel">
+							<span style="display: inline-flex; align-items: center;">​
+								<svg class="Zi Zi--Comment Button-zi" fill="currentColor" viewBox="0 0 24 24"
+								width="1.2em" height="1.2em">
+									<path d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z"
+									fill-rule="evenodd">
+									</path>
+								</svg>
+							</span>
+							发表
+						  </button>			  
+						  <button type="button" name="id" class="del_reply Button ContentItem-action1 Button--plain Button--withIcon Button--withLabel">
+							<span style="display: inline-flex; align-items: center;">​
+								<svg class="Zi Zi--Comment Button-zi" fill="currentColor" viewBox="0 0 24 24"
+								width="1.2em" height="1.2em">
+									<path d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z"
+									fill-rule="evenodd">
+									</path>
+								</svg>
+							</span>
+							删除
+						</button>
+				  </form>
+						  <button type="button" id="<?php echo htmlentities($vo['id']); ?>" value="<?php echo htmlentities($vo['id']); ?>" onclick="reply_open()" class="reply_open Button  Button--plain Button--withIcon Button--withLabel">
+							<span style="display: inline-flex; align-items: center;">​
+								<svg class="Zi Zi--Comment Button-zi" fill="currentColor" viewBox="0 0 24 24"
+								width="1.2em" height="1.2em">
+									<path d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z"
+									fill-rule="evenodd">
+									</path>
+								</svg>
+							</span>
+							评论
+						</button>
 					<hr>
-					<?php endforeach; endif; else: echo "" ;endif; ?>
-				  
-				 
-				  				  
+					<?php endforeach; endif; else: echo "" ;endif; ?>			  
 				  </div>
-			 
-					
-			
           </div> 
 
          
@@ -257,7 +299,7 @@
                       {
                       case 1:
                         $('#fav_logo').attr('class','glyphicon glyphicon-star')
-                        $//('#fav').text(data.message)
+                        //$('#fav').text(data.message)
 						alert(data.message)
                         break
 
@@ -378,14 +420,15 @@
 		   <!-- 处理回复功能 -->
 		  <script type="text/javascript">
 			  $(function(){
-				$('#reply').on('click',function(){
-				
+				$('.reply').on('click',function(){
+				//测试表单数据
+				//alert($('#reply_comment').serialize())
 				  //用ajax提交用户信息 
-				  //alert($('#reply_comment').serialize())
+				  
 				  $.ajax({
 					type: 'post',
 					url: "<?php echo url('index/index/reply'); ?>",
-					data:$('#reply_comment').serialize(),
+					data:$('.reply_comment').serialize(),
 					dataType: 'json',
 					success: function(data){
 					  switch (data.status)
@@ -412,34 +455,61 @@
 		   </script>
 		   <!--删除评论--->
 		   <script type="text/javascript">
-		   $(funtion(){
-				$('#del').on('click',function(){
-					alert($('#reply_comment').serialize())
-			
-					$.ajax({
-					type:'post',
-					url:"<?php echo url('index/index/del'); ?>";
-					data:$('#reply_comment').serialize(),
-					dataType:'json',
-					success:function(){
-						switch(data.status)
-						{
-						case 1:
-							alert(data.message);
-							windows.location.reload()
-							break
-						
-						
-						}
+			  $(function(){
+				$('.del_reply').on('click',function(){
+				//测试表单数据
+				//alert($('#reply_comment').serialize())
+				  //用ajax提交用户信息 
+				  
+				  $.ajax({
+					type: 'post',
+					url: "<?php echo url('index/index/del'); ?>",
+					data:$('.reply_comment').serialize(),
+					dataType: 'json',
+					success: function(data){
+					  switch (data.status)
+					  {
+						case 1:  //评论成功
+						  alert(data.message);
+						 
+						//$('#content').text("Hello world!");
+							//$('#content').attr("value","money");
+						 window.location.reload()
+						  //window.location.href = "<?php echo url('index/index/'); ?>";
+						break;
+						case 0:  //失败或验证不通过
+						case -1:
+						  alert(data.message);
+						  // window.location.back();
+						break;
+					  }
+
 					}
-					})
-				
-				
-				})
-		   
-		   
-		   }
+				  })
+			  })
+			  })
 		   </script>
+		   <!--弹出作者评论-->
+		   <script type="text/javascript">
+			
+			$("#open").click(function(){
+				if($("#user_comment").css("display")=="none"){
+					$("#user_comment").show(100);
+				}else{
+					$("#user_comment").hide(100);
+				}
+			});
+
+			
+		   </script>
+		   <!--动态获取按钮值-->
+		   <!--弹出用户评论-->
+		   
+
+</script>
+
+
+		   
 		   
 
 
