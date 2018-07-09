@@ -47,7 +47,7 @@ class Index extends Base
                     ->where($map)
                     ->order('create_time','desc')->paginate(4); 
         }
-		
+		//print_r($artList);
         $this->view->assign('empty','<h3>没有文章</h3>'); 
         $this->view->assign('artList', $artList);
 		

@@ -103,7 +103,7 @@ INFO;
     //根据阅读量PV排名来获取内容,放在前台的右侧显示:在初始化方法中进行调用 
     public function getHotArt()
     {
-        $hotArtList = Article::where('status',1)->order('pv','desc')->limit(12)->select();
+        $hotArtList = Article::where('status',1)->order('pv','desc')->limit(10)->select();
 
         $this->view->assign('hotArtList', $hotArtList);
     }

@@ -10,7 +10,7 @@
   			<h3>{$art.cate_id|getCateName}</h3>			
 		</div>
 
-		<div>			
+		<div style="width:%60">			
             
              <h4>{$art.title}</h4>
                 <p>作者:{$art.user_id|getUserName}&nbsp;&nbsp;
@@ -23,7 +23,8 @@
 			   <span id="like_logo" class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 			   </a> -->
 			   </p>
-               <div>{:htmlspecialchars_decode($art.content)}</div>
+               <div >{:htmlspecialchars_decode($art.content)}</div>
+			   <!-- <div >{$art.content}</div> -->
               
 
 			<div class="ContentItem-actions">

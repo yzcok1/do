@@ -7,7 +7,7 @@ class Test
 {
     public function index()
     {
-       $page = 'http://cms.querylist.cc/news/566.html';
+       $page = 'http://news.sina.com.cn/w/sy/2018-07-09/doc-ihezpzwt7818971.shtml';
 //采集规则
 $reg = [
     //采集文章标题 能去掉文章中的超链接，但保留超链接的文字，并去掉版权、JS代码等无用信息

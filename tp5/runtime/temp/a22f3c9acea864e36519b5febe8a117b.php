@@ -1,4 +1,4 @@
-<?php /*a:6:{s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\index\detail.html";i:1530959410;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1530929840;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1530929840;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530929840;s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1530929840;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530929840;}*/ ?>
+<?php /*a:6:{s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\index\detail.html";i:1531125996;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1530929840;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1531124720;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530929840;s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\right.html";i:1531127537;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1530929840;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css" />
 	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/static/css/ss.css" />
 	<script type="text/javascript" src="/static/nicedit/nicEdit.js"></script>
 </head>
 <body>
@@ -117,7 +118,7 @@
   			<h3><?php echo htmlentities(getCateName($art['cate_id'])); ?></h3>			
 		</div>
 
-		<div>			
+		<div style="width:%60">			
             
              <h4><?php echo htmlentities($art['title']); ?></h4>
                 <p>作者:<?php echo htmlentities(getUserName($art['user_id'])); ?>&nbsp;&nbsp;
@@ -130,7 +131,8 @@
 			   <span id="like_logo" class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 			   </a> -->
 			   </p>
-               <div><?php echo htmlspecialchars_decode($art['content']); ?></div>
+               <div ><?php echo htmlspecialchars_decode($art['content']); ?></div>
+			   <!-- <div ><?php echo htmlentities($art['content']); ?></div> -->
               
 
 			<div class="ContentItem-actions">
@@ -527,7 +529,7 @@
 				<?php endif; ?>
 
 
-					"><?php echo htmlentities($art['title']); ?><span class="badge"><?php echo htmlentities($art['pv']); ?></span></a>
+					"><?php echo mb_substr(strip_tags($art['title']),0,20); ?><span class="badge"><?php echo htmlentities($art['pv']); ?></span></a>
 				<?php endforeach; endif; else: echo "" ;endif; ?>
 			</div>
 
