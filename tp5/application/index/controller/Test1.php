@@ -39,7 +39,13 @@ class Test1 extends Base
 			//$data['title_content']= 0;
     	}
 
-	Article::create($data);
+	if(Article::create($data))
+	{
+		$this->success('成功','index/index');
+	}else{
+		$this->error('失败','index/index');
+	}
+		
 	} 
 	
 	
