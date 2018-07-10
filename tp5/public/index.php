@@ -13,6 +13,10 @@
 namespace think;
 //加上下面这一句话，用于自动加载QueryList
 //require 'vendor/autoload.php';
+//require 'querylist/vendor/autoload.php';
+define('SITE_URL', 'http://127.0.0.1/tp5');
+
+ 
 // 加载基础文件
 require __DIR__ . '/../thinkphp/base.php';
 

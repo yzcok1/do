@@ -1,0 +1,368 @@
+---------------------------------------------------------------
+[ 2018-07-10T15:06:34+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：921.96kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant __CSS__ - assumed '__CSS__'[D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Test.php:11]
+---------------------------------------------------------------
+[ 2018-07-10T15:06:49+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：921.41kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant __CSS__ - assumed '__CSS__'[D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Test.php:11]
+---------------------------------------------------------------
+[ 2018-07-10T15:07:09+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.071005s][吞吐率：14.08req/s] [内存消耗：921.95kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant __CSS__ - assumed '__CSS__'[D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Test.php:11]
+---------------------------------------------------------------
+[ 2018-07-10T15:07:10+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：921.95kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant __CSS__ - assumed '__CSS__'[D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Test.php:11]
+---------------------------------------------------------------
+[ 2018-07-10T15:07:34+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：921.93kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant __CSS__ - assumed '__CSS__'[D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Test.php:11]
+---------------------------------------------------------------
+[ 2018-07-10T15:07:35+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：921.93kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant __CSS__ - assumed '__CSS__'[D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Test.php:11]
+---------------------------------------------------------------
+[ 2018-07-10T15:07:45+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：921.85kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant __CSS__ - assumed '__CSS__'[D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Test.php:11]
+---------------------------------------------------------------
+[ 2018-07-10T15:07:46+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：921.85kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant __CSS__ - assumed '__CSS__'[D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Test.php:11]
+---------------------------------------------------------------
+[ 2018-07-10T07:15:31+00:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：606.84kb] [文件加载：73]
+[ error ] [8]Use of undefined constant SCRIPT_DIR - assumed 'SCRIPT_DIR'[D:\myphp_www\PHPTutorial\WWW\tp5\config\template.php:35]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-10T15:15:43+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：921.93kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant __CSS__ - assumed '__CSS__'[D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Test.php:11]
+---------------------------------------------------------------
+[ 2018-07-10T15:15:59+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：921.93kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant __CSS__ - assumed '__CSS__'[D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Test.php:11]
+---------------------------------------------------------------
+[ 2018-07-10T16:27:56+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：921.31kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINK_PATH - assumed 'THINK_PATH'[D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Test.php:11]
+---------------------------------------------------------------
+[ 2018-07-10T16:28:15+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：921.95kb] [文件加载：86]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINK_PATH - assumed 'THINK_PATH'[D:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Test.php:11]
+---------------------------------------------------------------
+[ 2018-07-10T16:28:26+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.399023s][吞吐率：2.51req/s] [内存消耗：2,315.70kb] [文件加载：129]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : ins in Entity, line: 125[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 502[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 502[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 507[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 507[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 512[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 512[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 517[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 517[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 522[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 522[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-07-10T17:56:39+08:00 ] 127.0.0.1 GET /index/test/index
+[ info ] tp5.com/index/test/index [运行时间：0.359020s][吞吐率：2.79req/s] [内存消耗：2,315.13kb] [文件加载：129]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : ins in Entity, line: 125[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 502[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 502[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 507[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 507[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 512[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 512[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 517[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 517[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 522[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 522[D:\myphp_www\PHPTutorial\WWW\tp5\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-07-10T17:56:40+08:00 ] 127.0.0.1 GET /index/test0/index
+[ info ] tp5.com/index/test0/index [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：899.27kb] [文件加载：83]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6833091584; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529660993,1529722385; PHPSESSID=e149pfn0s41hrm20nca8cmsmm6; thinkphp_show_page_trace=0|0; UM_distinctid=164828def3c47-04271aac447c16-3f3c5501-13c680-164828def3d7b; CNZZDATA5661630=cnzz_eid%3D1935165748-1531195770-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201170; CNZZDATA5399792=cnzz_eid%3D1250335291-1531196002-http%253A%252F%252Ftp5.com%252F%26ntime%3D1531201402; CNZZDATA5581086=cnzz_eid%3D293756252-1531195096-%26ntime%3D1531200496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tp5.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/test0/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
