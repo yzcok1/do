@@ -30,9 +30,8 @@ return [
     'taglib_begin' => '{',
     // 标签库标签结束标记
     'taglib_end'   => '}',
-	'tpl_replace_string'      => [
-        '__CSS__'    => SITE_URL.'/public/static/',
-		 '__PUBLIC__'=> SITE_URL. '/public',
+	'tpl_replace_string'   => [
+    '__STATIC__'   => '/static',
+  ],
 
-    ],
 ];

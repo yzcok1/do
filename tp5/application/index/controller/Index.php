@@ -215,8 +215,15 @@ class Index extends Base
 	//发表评论
 	 public function comment()
 	 {	
+		if (!Request::isAjax()){
+            return ['status'=>-1, 'message'=>'请求类型错误'];
+        }
+			
 		 $data = Request::param();
-	
+		 
+		if (empty($data['reply_id'])){
+			return  ['status'=>-2, 'message'=>'请登录后再评论'];
+        }	
 		//return ['status'=>1, 'message'=>[$data['reply_id'],$data['article_id'],$data['user_id'],$data['user_comment']]];
 			$result = Comment::create([
 				'user_id'=>$data['user_id'],
@@ -235,8 +242,15 @@ class Index extends Base
 	 //发表回复
 	   public function reply()
 	 {	
+		if (!Request::isAjax()){
+            return ['status'=>-1, 'message'=>'请求类型错误'];
+        }
+			
 		 $data = Request::param();
-		
+		 
+		if (empty($data['reply_id'])){
+			return  ['status'=>-2, 'message'=>'请登录后再回复'];
+		}	
 		//return ['status'=>1, 'message'=>[$data['reply_id'],$data['article_id'],$data['user_id'],$data['reply_comment']]];
 			$result = Comment::create([
 				'user_id'=>$data['user_id'],
@@ -251,7 +265,11 @@ class Index extends Base
             }       
 	 }
 	 //删除评论
-	 public function del(){
+		public function del()
+		{
+		 if (!Request::isAjax()){
+            return ['status'=>-1, 'message'=>'请求类型错误'];
+        }   
 		 $data=Request::param();
 		 //return ['status'=>1,'message'=>$data['id']];
 		 $result = Comment::where('id',$data['id'])->delete();

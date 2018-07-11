@@ -107,14 +107,17 @@
 							</span>
 							提交
 						</button>
-				</form>
-			      <div style="border:1px solid #DDDDDD;border-radius:5px; padding:10px 20px 0px 20px; margin:10px 0px 10px 0px;" {eq name="$art.id|getUserComment" value="0"}class="hidden"{/eq}> 
+				</form >
+				
+				
+				<div style="border:1px solid #DDDDDD;border-radius:5px; padding:10px 20px 0px 20px; margin:10px 0px 10px 0px;" {eq name="$art.id|getUserComment" value="0"}class="hidden"{/eq}> 
 					{volist name="comment" id="vo"}
 					<div ><p>{$vo.reply_id|getUserName}&nbsp回复&nbsp{$vo.user_id|getUserName}  </p></div>
 					<p>{$vo.user_comment}</p>
 					<p>{$vo.create_time}</p>
 					<p>{$vo.id}</p>
-					
+						
+				  	
 					<!--回复用户-->
 					<form style="margin-top:10px;" method="post" class="reply_comment" name="" >
 							<div class="form-group ">
@@ -126,7 +129,7 @@
 						  </div>
 						  
 						  
-						  <button type="button"  class="Button ContentItem-action1 Button--plain Button--withIcon Button--withLabel">
+						  <button type="button"  class="reply Button ContentItem-action1 Button--plain Button--withIcon Button--withLabel">
 							<span style="display: inline-flex; align-items: center;">​
 								<svg class="Zi Zi--Comment Button-zi" fill="currentColor" viewBox="0 0 24 24"
 								width="1.2em" height="1.2em">
@@ -163,8 +166,14 @@
 					<hr>
 					{/volist}			  
 				  </div>
-          </div> 
-
+				  
+			</div>
+				
+		</div><!-- <div class="col-md-8"> -->		
+				
+				
+				
+	
          
          
           <!-- 处理收藏功能 -->
@@ -299,11 +308,14 @@
 						 window.location.reload()
 						  //window.location.href = "{:url('index/index/')}";
 						break;
-						case 0:  //失败或验证不通过
-						case -1:
-						  alert(data.message);
-						  // window.location.back();
-						break;
+						
+						 case -1:
+                        alert(data.message)
+                        break
+
+                        case -2:
+                        alert(data.message)
+                        break
 					  }
 
 					}
@@ -335,11 +347,14 @@
 						 window.location.reload()
 						  //window.location.href = "{:url('index/index/')}";
 						break;
-						case 0:  //失败或验证不通过
-						case -1:
-						  alert(data.message);
-						  // window.location.back();
-						break;
+						
+						 case -1:
+                        alert(data.message)
+                        break
+
+                        case -2:
+                        alert(data.message)
+                        break
 					  }
 
 					}
@@ -371,11 +386,14 @@
 						 window.location.reload()
 						  //window.location.href = "{:url('index/index/')}";
 						break;
-						case 0:  //失败或验证不通过
+						
 						case -1:
-						  alert(data.message);
-						  // window.location.back();
-						break;
+                        alert(data.message)
+                        break
+
+                        case -2:
+                        alert(data.message)
+                        break
 					  }
 
 					}
@@ -404,5 +422,5 @@
 
 
 		   
-</div>		   
+		   
 {/block}

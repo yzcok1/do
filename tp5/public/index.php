@@ -12,9 +12,11 @@
 // [ 应用入口文件 ]
 namespace think;
 //加上下面这一句话，用于自动加载QueryList
-//require 'vendor/autoload.php';
-//require 'querylist/vendor/autoload.php';
-define('SITE_URL', 'http://127.0.0.1/tp5');
+define('PUBLIC_PATH', __DIR__ . '/vendor/');
+
+
+
+// define('SITE_URL', 'http://127.0.0.1/tp5');
 
  
 // 加载基础文件
@@ -24,3 +26,4 @@ require __DIR__ . '/../thinkphp/base.php';
 
 // 执行应用并响应
 Container::get('app')->run()->send();
+
