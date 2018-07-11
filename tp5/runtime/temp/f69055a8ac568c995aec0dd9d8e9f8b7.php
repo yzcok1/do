@@ -1,4 +1,4 @@
-<?php /*a:6:{s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\index\index.html";i:1531239075;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1531238672;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1531147959;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530722299;s:68:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\right.html";i:1531238901;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1531239179;}*/ ?>
+<?php /*a:6:{s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\index\index.html";i:1531239075;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1531238672;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1531313446;s:66:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530722299;s:68:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\right.html";i:1531313446;s:69:"C:\php\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1531313446;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="/static/css/ss.css" />
 	<script type="text/javascript" src="/static/nicedit/nicEdit.js"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target="sidebarMenu">
 	<!-- 测试jquery与bootsrap是否加载成功 -->
 	<!-- <div class="alert alert-success" role="alert">加载成功</div> -->
 	<!-- 创建栅格布局 -->
@@ -140,7 +140,7 @@
 
 <!-- 右侧4列 -->
 	
-		<div class="col-md-4">
+		<div class="col-md-4 "   >
 			<div class="page-header"> <h3>热门浏览</h3> </div> 
 			<!-- 列表使用:列表组来做 -->
 			<div class="list-group">
@@ -157,13 +157,37 @@
 		
 	
 <!-- 底部开始 -->
-	<div>
-		<blockquote style="text-center">
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-		  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-		</blockquote>
-	</div>
-</div>
+</div><!-- <div class="row"> -->
+	<footer style="clear:both;margin:10px 0px 50px 0px;; class="container-fluid foot-wrap">
+    <!--采用container，使得页尾内容居中 -->
+        <div class="container">
+            <div class="row">
+               
+
+            </div><!--/.row -->
+        </div><!--/.container-->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 </body>
 </html>
 <!-- 底部结束 -->
