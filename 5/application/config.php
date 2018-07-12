@@ -75,8 +75,6 @@ return [
     // +----------------------------------------------------------------------
 
     // PATHINFO变量名 用于兼容模式
-	'url_route_on'  =>  true,
-	'url_route_must'=>  false,
     'var_pathinfo'           => 's',
     // 兼容PATH_INFO获取
     'pathinfo_fetch'         => ['ORIG_PATH_INFO', 'REDIRECT_PATH_INFO', 'REDIRECT_URL'],
@@ -124,8 +122,6 @@ return [
     'template'               => [
         // 模板引擎类型 支持 php think 支持扩展
         'type'         => 'Think',
-        // 默认模板渲染规则 1 解析为小写+下划线 2 全部转换小写
-        'auto_rule'    => 1,
         // 模板路径
         'view_path'    => '',
         // 模板后缀

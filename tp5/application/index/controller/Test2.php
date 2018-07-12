@@ -1,11 +1,9 @@
 <?php
 namespace app\index\controller;
-use app\common\model\Article;
-use app\common\controller\Base;
+use think\Controller;
+use QL\QueryList;
 
-//use QL\QueryList;
-
-class Test2 extends Base
+class Test2 extends Controller
 {
     public function index()
     {

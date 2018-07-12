@@ -5,8 +5,7 @@ use app\common\controller\Base;
 use app\common\model\Article;
 use app\common\model\ArtCate;
 use app\common\model\Comment;
-//use think\facade\Request; //导入请求静态代理 改
-use think\Request;
+use think\Request; //导入请求静态代理
 use think\Db;
 
 class Index extends Base
@@ -28,7 +27,6 @@ class Index extends Base
 
         //分类信息显示
         //1.获取到URL中的分类ID
-		//$cateId = Request::param('cate_id');//改
         $cateId = Request::instance()->param('cate_id');
         //如果当前存在分类ID,再进行查询获取到分类名称
         if (isset($cateId)){
@@ -37,7 +35,7 @@ class Index extends Base
             $res = ArtCate::get($cateId);
             //文章列表分页显示,分页仅显示三条
             $artList = Db::table('zh_article')
-                    //->where($map)//改
+                   // ->where($map)
 					->where('cate_id','=', $cateId)
                     ->order('create_time','desc')->paginate(4); 
           $this->view->assign('cateName',$res->name);
@@ -46,8 +44,8 @@ class Index extends Base
             //如果当前没有分类ID,就是首页啦
           $this->view->assign('cateName','全部文章');
           $artList = Db::table('zh_article')
-                    //->where($map)改
-					->where('status','=',1)
+                    // ->where('status',1)
+                    ->where('status','=',1)
                     ->order('create_time','desc')->paginate(4); 
         }
 		//print_r($artList);
@@ -86,7 +84,7 @@ class Index extends Base
      {
         if (Request::isPost()){
             //1.获取表单提交的数据
-            $data = Request::post();
+            $data = Request::instance()->post();
             // halt($data);
             //2. 对前端表单提交的数据进行验证
             $res = $this->validate($data, 'app\common\validate\Article');
@@ -127,14 +125,10 @@ class Index extends Base
     //详情页
     public function detail()
     {
-        //$artId = Request::param('id');//改
-		$artId = Request::instance()->param('id');
-		echo $artId;
-        /*  $art = Article::get(function($query) use ($artId){
+        $artId = Request::param('id');
+        $art = Article::get(function($query) use ($artId){
             $query->where('id','=',$artId)->setInc('pv');
-        });  */
-		$art=Article::select(658);
-		//print_r($art);
+        });
         if (!is_null($art)){
             $this->view->assign('art',$art);
         }

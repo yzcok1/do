@@ -1,10 +1,11 @@
 <?php
 namespace app\index\controller;
 use app\common\model\Article;
-use app\common\controller\Base;
+use app\common\model\ArtCate;
+use think\Controller;
 use QL\QueryList;
 
-class Test1 extends Base
+class Test1 extends Controller
 {
     public function index()
     {
