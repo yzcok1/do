@@ -30,6 +30,26 @@ if(!function_exists('getCateId'))
 		//return getCateName($cateId);
     }
 }
+if(!function_exists('getDateTime'))
+{
+	function getDateTime($time){
+		return date('Y-m-d H:i:s',$time);;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 if(!function_exists('getUserComment'))
 {
 	function getUserComment($id)

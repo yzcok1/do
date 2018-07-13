@@ -1,4 +1,4 @@
-<?php /*a:6:{s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\index\index.html";i:1531270657;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1531270657;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1531356616;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530929840;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\right.html";i:1531356616;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1531356616;}*/ ?>
+<?php /*a:6:{s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\index\index.html";i:1531477101;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1531270657;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1531356616;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530929840;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\right.html";i:1531356616;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1531356616;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -119,7 +119,7 @@
 		</div>
 		<?php if(is_array($artList) || $artList instanceof \think\Collection || $artList instanceof \think\Paginator): $i = 0; $__LIST__ = $artList;if( count($__LIST__)==0 ) : echo "$empty" ;else: foreach($__LIST__ as $key=>$art): $mod = ($i % 2 );++$i;?>
 		<div>			
-            <a href="<?php echo url('detail',['id'=>$art['id']]); ?>"><img class="img-rounded" src="/uploads/<?php echo htmlentities($art['title_img']); ?>"
+            <a href="<?php echo url('detail',['id'=>$art['id']]); ?>"><img class="img-rounded" src="/static/image/<?php echo htmlentities($art['title_img']); ?>"
             style="margin-right: 10px;float: left;width: 100px;height: 85px"/></a>
             <div class="content-detail" style="float: left;width: 80%">
               <!-- 获取当前文章的id -->
@@ -128,7 +128,8 @@
                发布时间：<?php echo htmlentities(date('Y年m月d日',!is_numeric($art['create_time'])? strtotime($art['create_time']) : $art['create_time'])); ?>&nbsp;&nbsp;
 			   浏览:<?php echo htmlentities($art['pv']); ?>&nbsp;&nbsp;
                </p>
-               <div><?php echo mb_substr(strip_tags($art['content']),0,30); ?></div>
+               
+			   <h6 style="padding:0px 20px 0px 20px;color:#666666;"><?php echo mb_substr(strip_tags($art['content']),0,100); ?></h6>
               <hr/>
           </div>                
    		</div>

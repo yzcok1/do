@@ -11,17 +11,17 @@
 		</div>
 		{volist name="artList" id="art" empty="$empty"}
 		<div>			
-            <a href="{:url('detail',['id'=>$art.id])}"><img class="img-rounded" src="/image/{$art.title_img}"
+            <a href="{:url('detail',['id'=>$art.id])}"><img class="img-rounded" src="/static/image/{$art.title_img}"
             style="margin-right: 10px;float: left;width: 100px;height: 85px"/></a>
             <div class="content-detail" style="float: left;width: 80%">
               <!-- 获取当前文章的id -->
              <h4><a href="{:url('detail',['id'=>$art.id])}">{$art.title}</a></h4>
                 <p>作者:{$art.user_id|getUserName}&nbsp;&nbsp;
-               发布时间：{$art.create_time}&nbsp;&nbsp;
+               发布时间：{$art.create_time|getDateTime}&nbsp;&nbsp;
 			   浏览:{$art.pv|}&nbsp;&nbsp;
                </p>
-			   {$art.title_img}
-               <div>{:mb_substr(strip_tags($art.content),0,30)}</div>
+			  
+               <div style=''>{:mb_substr(strip_tags($art.content),0,100)}</div>
               <hr/>
           </div>                
    		</div>

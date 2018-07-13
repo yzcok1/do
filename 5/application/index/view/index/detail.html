@@ -1,5 +1,6 @@
 {extend name="public:base" /}
 {block name="body"}
+	
 	<P>首页&nbsp>&nbsp{$art.cate_id|getCateName}&nbsp>&nbsp{$art.title}</P>
 	<!-- 主体 -->
 	<div class="row">
@@ -16,15 +17,10 @@
                 <p>作者:{$art.user_id|getUserName}&nbsp;&nbsp;
                发布时间:{$art.create_time}&nbsp;&nbsp;
                浏览:{$art.pv}&nbsp;&nbsp;
-			  <!--  <a class="" id="fav" user_id="{$art.user_id}" article_id="{$art.id}" session_id="{$Think.session.user_id}">
-			   <span id="fav_logo" class="glyphicon glyphicon-star black" aria-hidden="true"></span>
-			   </a>
-			   <a class=" " id="like" user_id="{$art.user_id}" article_id="{$art.id}" session_id="{$Think.session.user_id}">
-			   <span id="like_logo" class="glyphicon glyphicon-heart" aria-hidden="true"></span>
-			   </a> -->
+			  
 			   </p>
-               <div >{:htmlspecialchars_decode($art.content)}</div>
-			   <!-- <div >{$art.content}</div> -->
+               <div >{:htmlspecialchars_decode($art.content)}</div> 
+			   <div >{$art.content}</div>
               
 
 			<div class="ContentItem-actions">
@@ -86,7 +82,7 @@
 				</button>
 				</div>
 			
-				<!--回复作者-->
+				<!-- 回复作者 -->
 				<form style="margin-top:10px;display:none;"   method="post" id="user_comment"  >
 						<input type="hidden" name="article_id" value="{$art.id}">
 						<input type="hidden" name="user_id" value="{$art.user_id}">
@@ -118,7 +114,7 @@
 					<p>{$vo.id}</p>
 						
 				  	
-					<!--回复用户-->
+					<!-- 回复用户 -->
 					<form style="margin-top:10px;" method="post" class="reply_comment" name="" >
 							<div class="form-group ">
 							<input type="hidden" name="id" value="{$vo.id}">
@@ -169,7 +165,7 @@
 				  
 			</div>
 				
-		</div><!-- <div class="col-md-8"> -->		
+		</div><!-- <div class="col-md-8"-->		
 				
 				
 				
@@ -286,7 +282,7 @@
               })
             })
           </script> 
-		   <!-- 处理评论功能 -->
+		  <!--处理评论功能-->
 		  <script type="text/javascript">
 			  $(function(){
 				$('#comment').on('click',function(){
@@ -323,7 +319,7 @@
 			  })
 			  })
 		   </script>
-		   <!-- 处理回复功能 -->
+		   <!--处理回复功能-->
 		  <script type="text/javascript">
 			  $(function(){
 				$('.reply').on('click',function(){
@@ -362,7 +358,7 @@
 			  })
 			  })
 		   </script>
-		   <!--删除评论--->
+		   <!--删除评论-->
 		   <script type="text/javascript">
 			  $(function(){
 				$('.del_reply').on('click',function(){
@@ -401,7 +397,7 @@
 			  })
 			  })
 		   </script>
-		   <!--弹出作者评论-->
+		   弹出作者评论
 		   <script type="text/javascript">
 			
 			$("#open").click(function(){
@@ -414,7 +410,7 @@
 
 			
 		   </script>
-		   <!--动态获取按钮值-->
+		   动态获取按钮值
 		   <!--弹出用户评论-->
 		   
 

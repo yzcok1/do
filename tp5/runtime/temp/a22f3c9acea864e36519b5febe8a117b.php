@@ -1,4 +1,4 @@
-<?php /*a:6:{s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\index\detail.html";i:1531287407;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1531270657;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1531295094;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530929840;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\right.html";i:1531279097;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1531273359;}*/ ?>
+<?php /*a:6:{s:73:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\index\detail.html";i:1531356616;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1531270657;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1531356616;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530929840;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\right.html";i:1531356616;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1531356616;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -553,7 +553,7 @@
 	
 <!-- 底部开始 -->
 </div><!-- <div class="row"> -->
-	<footer style="clear:both;margin:10px 0px 50px 0px;; class="container-fluid foot-wrap">
+	<footer style="clear:both;margin:10px 0px 100px 0px;; class="container-fluid foot-wrap">
     <!--采用container，使得页尾内容居中 -->
         <div class="container">
             <div class="row">

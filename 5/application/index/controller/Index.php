@@ -37,6 +37,7 @@ class Index extends Base
             $artList = Db::table('zh_article')
                    // ->where($map)
 					->where('cate_id','=', $cateId)
+					->where('cate_id','neq',0)
                     ->order('create_time','desc')->paginate(4); 
           $this->view->assign('cateName',$res->name);
           
@@ -46,6 +47,9 @@ class Index extends Base
           $artList = Db::table('zh_article')
                     // ->where('status',1)
                     ->where('status','=',1)
+					//->where('user_id','=',9)
+					//->where('title','')
+					//->where('title_img','<>','/test.jpg')
                     ->order('create_time','desc')->paginate(4); 
         }
 		//print_r($artList);
@@ -125,18 +129,25 @@ class Index extends Base
     //详情页
     public function detail()
     {
-        $artId = Request::param('id');
-        $art = Article::get(function($query) use ($artId){
+        $artId = Request::instance()->param('id');
+ 
+		/* $art = Article::get(function($query) use ($artId){
             $query->where('id','=',$artId)->setInc('pv');
         });
-        if (!is_null($art)){
+          */
+		Article::where('id','=', $artId)->setInc('pv');
+		$art = Article::get(function($query) use ($artId){
+            $query->where('id','=',$artId);
+        });
+		if (!is_null($art)){
             $this->view->assign('art',$art);
         }
+		
         $this->view->assign('title','详情页');
 		
 		$comment=Comment::where('article_id',$artId)->select();
 		$this->view->assign('comment',$comment);
-        return $this->view->fetch('detail');
+        return $this->view->fetch('detail'); 
     }
 
 

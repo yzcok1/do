@@ -14,13 +14,13 @@ public function index(){
 			])->query()->getData();
 			$count=count($data_src);
 			echo $count.'<br>';
-			 for ($i=0; $i<5; $i++) {//for开始
+			 for ($i=0; $i<70; $i++) {//for开始
 		$url=($data_src[$i]['地址']);
         //echo $url;
 		
 		$this->get_acticle($url);
 		
-		 //$this->get_image($url);
+		$this->get_image($url);
 		
         }
     }
@@ -31,48 +31,48 @@ public function index(){
 		// 设置采集规则
 		->rules([ 
 			
-			//'title'=>array('.main-title','text'),
-			//'content'=>array('#article.article','html'),
+			'title'=>array('.main-title','text'),
+			'content'=>array('#article.article','html','-p:first'),
 			'title_img'=>array('.img_wrapper>img:first','src')
 		])
 		->query()->getData();
 		
 		
-		foreach($data_acticle as $key=>$val){
+		/* foreach($data_acticle as $key=>$val){
 			
 			// $data_acticle[$key]['title_img'].'<br>';
 			//$pathinfo =$data_acticle[$key]['title_img'];
 			//$data_acticle[$key]['title_img']=$pathinfo['filename'].'.'.$pathinfo['extension'];
-			if ($data_acticle[0]['title_img']){
-				
-				$image=$data_acticle[0]['title_img'];
-				$pathinfo = pathinfo($image);    //获取图片路径信息
-				$pic_name=$pathinfo['filename'].'.'.$pathinfo['extension'];//(自定义名称)
 				//echo $pic_name.'<br>';
 				
 				//$data_acticle['title_img']=$pathinfo['filename'].'.'.$pathinfo['extension'];
 				//echo $image.'<br>';
-				}
-				else{
-				$data_acticle[0]['title_img']='http://n.sinaimg.cn/translate/489/w676h613/20180712/8eay-hfefkqr1528202.png';
-				}
+				
+				
 				//$data_acticle[0]['title_img']=1;
-		}
+		} */
 		//echo $image;
 		
 		
 		foreach($data_acticle as $data_acticle){
-				//$data_acticle['user_id'] =9;
-				//$data_acticle['is_hot'] =0 ;
-				//$data_acticle['is_top'] =0;
-				//$data_acticle['cate_id'] =2 ;
+				$data_acticle['user_id'] =9;
+				$data_acticle['is_hot'] =0 ;
+				$data_acticle['is_top'] =0;
+				$data_acticle['cate_id'] =2 ;
 				
-				
-				$data_acticle['title_img'] =$pic_name ;	
+				if(count($data_acticle)<7){
+					$data_acticle['title_img']='/test.jpg';
+				}
+				$data_acticle['title_img'] =trim(strrchr($data_acticle['title_img'], '/'),'/'); 	
 			}
+		
 		//print_r($data_acticle)."<br>";
-		echo $data_acticle['title_img']."<br>";
-		//Article::create($data_acticle);
+		//echo $data_acticle['title_img']."<br>";
+		Article::create($data_acticle);
+		Article::where('title','')->delete();
+		Article::where('title_img','test.jpg')->delete();
+		
+	
 	}//结束获取文章信息
 	
 	
@@ -127,8 +127,8 @@ public function index(){
         $app_path = dirname($_SERVER['SCRIPT_FILENAME']) . "/";
         $root_path = dirname(realpath($app_path)) . "/";
  
-        $path = $root_path . 'public/static/image/'.date("Y-m-d").'/';
- 
+        //$path = $root_path . 'public/static/image/'.date("Y-m-d").'/';
+		$path = $root_path . 'public/static/image/';
         if (!is_dir(dirname($path))) {
             mkdir(dirname($path), 0755);
         }
