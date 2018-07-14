@@ -15,7 +15,7 @@ class Comment extends Model
 	protected $autoWriteTimestamp = true;
 	protected $createTime = 'create_time';
 	protected $updateTime = 'update_time';
-	protected $dateFormat = 'Y年m月d日';
+	//protected $dateFormat = 'Y年m月d日';
 
 	//自动完成设置
 	protected $auto = [];

@@ -41,7 +41,6 @@ class Test1 extends Controller
 	$result=Article::create($data);
 	if($result)
 	{
-	
 		$this->success('成功','index/index');
 	}
 	

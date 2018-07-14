@@ -3,8 +3,8 @@ namespace app\admin\controller;
 
 use app\admin\common\controller\Base;
 use app\admin\common\model\Cate as CateModel;
-use think\facade\Request;
-use think\facade\Session;
+use think\Request;
+use think\Session;
 
 class Cate extends Base
 {
@@ -40,7 +40,7 @@ class Cate extends Base
 	public function cateEdit()
 	{
 		//1.获取要更新的分类主键
-		$cateId = Request::param('id');
+		$cateId = Request::instance()->param('id');
 
 		//2.根据主键查询到需要更新的用户全部信息
 		$cateInfo = CateModel::where('id',$cateId)->find();
@@ -58,7 +58,7 @@ class Cate extends Base
 	public function doEdit()
 	{
 		//1.获取用户提交的更新信息
-		$data = Request::param();
+		$data = Request::instance()->param();
 
 		$id = $data['id'];  //取出更新主键
 
@@ -78,7 +78,7 @@ class Cate extends Base
 	public function doDelete()
 	{
 		//1.获取要删除的数据主键
-		$id = Request::param('id');
+		$id = Request::instance()->param('id');
 
 		//2.执行删除操作
 		if(CateModel::where('id',$id)->delete()){
@@ -104,7 +104,7 @@ class Cate extends Base
 	public function doAdd()
 	{
 		//1.获取要添加的数据
-		$data = Request::param();
+		$data = Request::instance()->param();
 
 		//2.执行添加操作并判断是否成功
 		if(CateModel::create($data)){

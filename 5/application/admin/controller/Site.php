@@ -3,7 +3,7 @@ namespace app\admin\controller;
 
 use app\admin\common\controller\Base;
 use app\admin\common\model\Site as SiteModel;
-use think\facade\Request;
+use think\Request;
 
 class Site extends Base 
 {
@@ -24,7 +24,7 @@ class Site extends Base
 	public function save()
 	{
 		//1.获取要更新的数据
-		$data = Request::param();
+		$data = Request::instance()->param();
 
 		//2.更新数据
 		if (SiteModel::update($data)){

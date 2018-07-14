@@ -38,7 +38,8 @@ class Index extends Base
                    // ->where($map)
 					->where('cate_id','=', $cateId)
 					->where('cate_id','neq',0)
-                    ->order('create_time','desc')->paginate(4); 
+					->group('title')
+                    ->order('create_time','desc')->paginate(5); 
           $this->view->assign('cateName',$res->name);
           
         } else {
@@ -47,10 +48,11 @@ class Index extends Base
           $artList = Db::table('zh_article')
                     // ->where('status',1)
                     ->where('status','=',1)
+					->group('title')
 					//->where('user_id','=',9)
 					//->where('title','')
 					//->where('title_img','<>','/test.jpg')
-                    ->order('create_time','desc')->paginate(4); 
+                    ->order('create_time','desc')->paginate(5); 
         }
 		//print_r($artList);
         $this->view->assign('empty','<h3>没有文章</h3>'); 
@@ -99,7 +101,7 @@ class Index extends Base
             } else {
                 //验证通过
                 //获取上传的标题图片信息
-                $file = Request::file('title_img'); //获取file对象
+                $file = Request::instance()->file('title_img'); //获取file对象
                 //文件信息验证与上传到服务器指定目录
                 $info = $file -> validate([
                     'size'=>5000000000,  //文件大小
@@ -147,6 +149,8 @@ class Index extends Base
 		
 		$comment=Comment::where('article_id',$artId)->select();
 		$this->view->assign('comment',$comment);
+		//print_r($comment);
+		//return 123;
         return $this->view->fetch('detail'); 
     }
 
@@ -156,23 +160,26 @@ class Index extends Base
     // 用户收藏
     public function fav()
     {  
-
-        if (!Request::isAjax()){
+		
+		$Request=Request::instance();
+          /* if ($request->isAjax()){
             return ['status'=>-1, 'message'=>'请求类型错误'];
-        }         
-
-        $data = Request::param();
+        }    */       
+	
+        $Request= Request::instance();
+		$data=$Request->param();
         //1.先查询fav收藏表中是否有这条收藏记录,如果有,表示已收藏过了
         // halt($data);
-        // 
+         //return ['status'=>0, 'message'=>'123']; 
         if (empty($data['session_id'])){
             return  ['status'=>-2, 'message'=>'请登录后再收藏'];
         }
-        $map[] = ['user_id','=', $data['user_id']];
-        $map[] = ['article_id','=', $data['article_id']];
+        $map['user_id'] =$data['user_id'];
+        $map['article_id'] =$data['article_id'];
 
         $fav=Db::table('zh_user_fav')->where($map)->find();
         // halt($fav);
+		
         if (is_null($fav)) {
 
             Db::table('zh_user_fav')
@@ -183,7 +190,8 @@ class Index extends Base
             return ['status'=>1, 'message'=>'已收藏'];
                   
         }else {
-            Db::table('zh_user_fav')->where($map)->delete();
+            Db::table('zh_user_fav')->where($map)
+			->delete();
             return ['status'=>0, 'message'=>'已取消收藏'];      
         }
 
@@ -193,19 +201,19 @@ class Index extends Base
     public function like()
     {  
 
-        if (!Request::isAjax()){
+        /* if (!Request::isAjax()){
             return ['status'=>-1, 'message'=>'请求类型错误'];
-        }         
+        }       */   
 
-        $data = Request::param();
+        $data = Request::instance()->param();
         //1.先查询like表中是否有这条点赞记录,如果有,表示已点赞过了
         // halt($data);
         // 
         if (empty($data['session_id'])){
             return  ['status'=>-2, 'message'=>'请登录后再点赞'];
         }
-        $map[] = ['user_id','=', $data['user_id']];
-        $map[] = ['article_id','=', $data['article_id']];
+        $map['user_id'] =$data['user_id'];
+        $map['article_id'] = $data['article_id'];
 
         $like=Db::table('zh_user_like')->where($map)->find();
         //halt($like);
@@ -227,11 +235,11 @@ class Index extends Base
 	//发表评论
 	 public function comment()
 	 {	
-		if (!Request::isAjax()){
+		/* if (!Request::isAjax()){
             return ['status'=>-1, 'message'=>'请求类型错误'];
-        }
+        } */
 			
-		 $data = Request::param();
+		 $data = Request::instance()->param();
 		 
 		if (empty($data['reply_id'])){
 			return  ['status'=>-2, 'message'=>'请登录后再评论'];
@@ -254,11 +262,11 @@ class Index extends Base
 	 //发表回复
 	   public function reply()
 	 {	
-		if (!Request::isAjax()){
+		/* if (!Request::isAjax()){
             return ['status'=>-1, 'message'=>'请求类型错误'];
-        }
+        } */
 			
-		 $data = Request::param();
+		 $data = Request::instance()->param();
 		 
 		if (empty($data['reply_id'])){
 			return  ['status'=>-2, 'message'=>'请登录后再回复'];
@@ -279,10 +287,10 @@ class Index extends Base
 	 //删除评论
 		public function del()
 		{
-		 if (!Request::isAjax()){
+		/*  if (!Request::isAjax()){
             return ['status'=>-1, 'message'=>'请求类型错误'];
-        }   
-		 $data=Request::param();
+        }    */
+		 $data=Request::instance()->param();
 		 //return ['status'=>1,'message'=>$data['id']];
 		 $result = Comment::where('id',$data['id'])->delete();
 			if($result)

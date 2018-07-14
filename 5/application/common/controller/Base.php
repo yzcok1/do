@@ -1,8 +1,8 @@
 <?php 
 namespace app\common\controller;
 use think\Controller;
-use think\Facade\Session;
-use think\facade\Request;
+use think\Session;
+use think\Request;
 use app\common\model\ArtCate; //分类自定义模型
 use app\common\model\Article;
 use app\admin\common\model\Site;  //调用后台的模型Site

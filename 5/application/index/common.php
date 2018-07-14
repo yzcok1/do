@@ -21,6 +21,7 @@ if(!function_exists('getCateName'))
         return Db::table('zh_article_category')->where(['id'=>$cateId])->value('name');
     }
 }
+
 if(!function_exists('getCateId'))
 {
     function getCateId($id)
@@ -33,12 +34,36 @@ if(!function_exists('getCateId'))
 if(!function_exists('getDateTime'))
 {
 	function getDateTime($time){
-		return date('Y-m-d H:i:s',$time);;
+		$time=time()-$time;
+		 if($time<60){
+			return round($time).'秒前';
+		}
+		elseif($time>60&&$time<3600){
+			$time=$time/60;
+			return round($time).'分钟前';
+		}
+		elseif($time>3600&&$time<86400){
+			$time=$time/3600;
+			return round($time).'小时前';
+		}	 
+		//else return time().'&'.$time;
 	}
 }
 
-
-
+if(!function_exists('getArticle'))
+	{
+		function getArticle($article){			
+			$article=htmlspecialchars_decode(mb_substr(strip_tags($article),0,150));
+			return $article;
+		}
+	}
+if(!function_exists('getCommentNum'))
+{
+	function getCommentNum($artId){	
+		$result=Db::table('zh_user_comments')->where('article_id',$artId)->select();
+		return count($result);
+	}
+}
 
 
 

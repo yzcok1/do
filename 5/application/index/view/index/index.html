@@ -19,9 +19,12 @@
                 <p>作者:{$art.user_id|getUserName}&nbsp;&nbsp;
                发布时间：{$art.create_time|getDateTime}&nbsp;&nbsp;
 			   浏览:{$art.pv|}&nbsp;&nbsp;
+			   评论:{$art.id|getCommentNum}&nbsp;&nbsp;
+			   id:{$art.id}
                </p>
 			  
-               <div style=''>{:mb_substr(strip_tags($art.content),0,100)}</div>
+				<h6 style='padding:0px 20px 0px 20px;color:#777777;'>{$art.content|getArticle}</h6>	   
+				
               <hr/>
           </div>                
    		</div>

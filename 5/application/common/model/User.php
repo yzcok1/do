@@ -12,7 +12,7 @@ class User extends Model
 	//如果想关闭某个时间戳字段,将值设置为false即可:$create_time = false
 	protected $createTime = 'create_time'; //创建时间字段
 	protected $updateTime = 'update_time'; //更新时间字段
-	protected $dateFormat = 'Y年m月d日'; //时间字段取出后的默认时间格式
+	//protected $dateFormat = 'Y年m月d日'; //时间字段取出后的默认时间格式
 
 	//用户状态获取器
 	public function getStatusAttr($value)

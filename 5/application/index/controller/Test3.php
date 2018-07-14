@@ -2,10 +2,11 @@
 namespace app\index\controller;
 use app\common\model\Article;
 use app\common\model\ArtCate;
+use app\common\controller\Base;
 use think\Controller;
 use QL\QueryList;
 
-class Test3 extends Controller
+class Test3 extends Base
 {
 public function index(){
  
@@ -14,13 +15,17 @@ public function index(){
 			])->query()->getData();
 			$count=count($data_src);
 			echo $count.'<br>';
-			 for ($i=0; $i<70; $i++) {//for开始
+			 for ($i=0; $i<10; $i++) {//for开始
 		$url=($data_src[$i]['地址']);
         //echo $url;
 		
 		$this->get_acticle($url);
-		
+	
 		$this->get_image($url);
+		
+		
+	
+			$this->success('成功','index/index');
 		
         }
     }
@@ -32,7 +37,7 @@ public function index(){
 		->rules([ 
 			
 			'title'=>array('.main-title','text'),
-			'content'=>array('#article.article','html','-p:first'),
+			'content'=>array('#article.article','html','-p:first -script a'),
 			'title_img'=>array('.img_wrapper>img:first','src')
 		])
 		->query()->getData();
@@ -58,7 +63,7 @@ public function index(){
 				$data_acticle['user_id'] =9;
 				$data_acticle['is_hot'] =0 ;
 				$data_acticle['is_top'] =0;
-				$data_acticle['cate_id'] =2 ;
+				$data_acticle['cate_id'] =3 ;
 				
 				if(count($data_acticle)<7){
 					$data_acticle['title_img']='/test.jpg';
@@ -68,9 +73,12 @@ public function index(){
 		
 		//print_r($data_acticle)."<br>";
 		//echo $data_acticle['title_img']."<br>";
-		Article::create($data_acticle);
+		$result=Article::create($data_acticle);
+		
 		Article::where('title','')->delete();
 		Article::where('title_img','test.jpg')->delete();
+		
+		
 		
 	
 	}//结束获取文章信息
