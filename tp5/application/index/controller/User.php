@@ -65,10 +65,9 @@ class User extends Base
 	{		
 		//前端提交的必须是Ajax请求再进行验证与新增操作
 		if(Request::isAjax()){
-
 			//1.数据验证
 			$data = Request::post();  //要验证的数据
-			// halt($data); //查询获取到的数据
+			//halt($data); //查询获取到的数据
 			$rule = ['email|邮箱'=>'require|email','password|密码'=>'require|alphaNum'];  //自定义的验证器
 
 			//开始验证: $res 中保存错误信息,成功返回true
@@ -78,13 +77,15 @@ class User extends Base
 		  		return ['status'=> -1, 'message'=>$res];
 		  	}else { //验证成功
 		  		//2. 查询数据表zh_user中,并对结果进行判断
+				//return ['status'=>1, 'message'=>sha1($data['password'])];
 		  		$result = UserModel::get(
 		  			function($query) use ($data){
 		  			$query->where('email',$data['email'])
 		  				  ->where('password',sha1($data['password']));
 		  		}
-		  	);
-		  		// halt($result); //测试查询结果
+		  	);	
+		  		 //halt($result); //测试查询结果
+				
 		  		if(null == $result){
 		  			return ['status'=>0, 'message'=>'邮箱或密码不正确,请检查~~'];
 				} else{

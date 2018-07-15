@@ -1,8 +1,8 @@
 <?php 
 namespace app\common\controller;
 use think\Controller;
-use think\Session;
-use think\Request;
+use think\Facade\Session;
+use think\facade\Request;
 use app\common\model\ArtCate; //分类自定义模型
 use app\common\model\Article;
 use app\admin\common\model\Site;  //调用后台的模型Site
@@ -20,7 +20,7 @@ class Base extends Controller
 	 * 1.在所有方法之前调用
 	 * 2.常用来创建常量,公共方法等
 	 */
-    protected function _initialize()
+    protected function initialize()
     {
         //检测站点是否已关闭
         $this->is_open();

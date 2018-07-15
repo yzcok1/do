@@ -15,7 +15,7 @@ public function index(){
 			])->query()->getData();
 			$count=count($data_src);
 			echo $count.'<br>';
-			 for ($i=0; $i<10; $i++) {//for开始
+			 for ($i=0; $i<70; $i++) {//for开始
 		$url=($data_src[$i]['地址']);
         //echo $url;
 		
@@ -25,7 +25,7 @@ public function index(){
 		
 		
 	
-			$this->success('成功','index/index');
+			//$this->success('成功','index/index');
 		
         }
     }
@@ -66,9 +66,9 @@ public function index(){
 				$data_acticle['cate_id'] =3 ;
 				
 				if(count($data_acticle)<7){
-					$data_acticle['title_img']='/test.jpg';
+					$data_acticle['title_img']= date("Y-m-d").'/test.jpg';
 				}
-				$data_acticle['title_img'] =trim(strrchr($data_acticle['title_img'], '/'),'/'); 	
+				$data_acticle['title_img'] =date("Y-m-d").'/'.trim(strrchr($data_acticle['title_img'], '/'),'/'); 	
 			}
 		
 		//print_r($data_acticle)."<br>";
@@ -76,7 +76,7 @@ public function index(){
 		$result=Article::create($data_acticle);
 		
 		Article::where('title','')->delete();
-		Article::where('title_img','test.jpg')->delete();
+		Article::where('title_img',date("Y-m-d").'test.jpg')->delete();
 		
 		
 		
@@ -135,8 +135,8 @@ public function index(){
         $app_path = dirname($_SERVER['SCRIPT_FILENAME']) . "/";
         $root_path = dirname(realpath($app_path)) . "/";
  
-        //$path = $root_path . 'public/static/image/'.date("Y-m-d").'/';
-		$path = $root_path . 'public/static/image/';
+        $path = $root_path . 'public/static/image/'.date("Y-m-d").'/';
+		//$path = $root_path . 'public/static/image/';
         if (!is_dir(dirname($path))) {
             mkdir(dirname($path), 0755);
         }

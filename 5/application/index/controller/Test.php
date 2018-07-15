@@ -1,7 +1,5 @@
 <?php
 namespace app\index\controller;
-use app\common\model\Article;
-use app\common\model\ArtCate;
 use think\Controller;
 use QL\QueryList;
 

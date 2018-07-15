@@ -1,7 +1,5 @@
 <?php
 namespace app\index\controller;
-use app\common\model\Article;
-use app\common\model\ArtCate;
 use think\Controller;
 use QL\QueryList;
 
@@ -43,7 +41,6 @@ class Test1 extends Controller
 	$result=Article::create($data);
 	if($result)
 	{
-	
 		$this->success('成功','index/index');
 	}
 	

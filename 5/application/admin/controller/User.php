@@ -3,9 +3,8 @@ namespace app\admin\controller;
 
 use app\admin\common\controller\Base;
 use app\admin\common\model\User as UserModel;
-use think\Db;
-use think\Request;
-use think\Session;
+use think\facade\Request;
+use think\facade\Session;
 
 class User extends Base 
 {
@@ -22,25 +21,19 @@ class User extends Base
 	//验证用户登录
 	public function checkLogin()
 	{
-		$data = Request::instance()->param();
-		 //print_r ($data);
-		//return 123; 
-		$map['email'] = $data['email'];
-		$map['password'] = sha1($data['password']);
-		//print_r ($map);
+		$data = Request::param();
+
+		$map[] = ['email','=',$data['email']];
+		$map[] = ['password','=',sha1($data['password'])];
 
 		$result = UserModel::where($map)->find();
-		//print_r ($result);
-		//Db::table('zh_user_like')->where($map)->find();
 		if($result){
 			Session::set('user_id',$result['id']);
 			Session::set('user_name',$result['name']);
 			Session::set('is_admin',$result['is_admin']);			
 			$this->success('登录成功','admin/user/userList');
 		}
-		
-		return 123;
-		
+
 		$this->error('登录失败');
 	}
 
@@ -83,7 +76,7 @@ class User extends Base
 	public function userEdit()
 	{
 		//1.获取要更新的数据主键
-		$userId = Request::instance()->param('id');
+		$userId = Request::param('id');
 
 		//2.根据主键查询到需要更新的用户全部信息
 		$userInfo = UserModel::where('id',$userId)->find();
@@ -103,7 +96,7 @@ class User extends Base
 	public function doEdit()
 	{
 		//1.获取用户提交的更新信息
-		$data = Request::instance()->param();
+		$data = Request::param();
 
 		$id = $data['id'];  //取出更新主键
 		
@@ -132,7 +125,7 @@ class User extends Base
 	public function doDelete()
 	{
 		//1.获取要删除的数据主键
-		$id = Request::instance()->param('id');
+		$id = Request::param('id');
 
 		//2.执行删除操作
 		if(UserModel::where('id',$id)->delete()){

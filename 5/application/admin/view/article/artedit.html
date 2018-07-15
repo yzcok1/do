@@ -5,7 +5,7 @@
 <form action="{:url('article/doEdit')}" enctype="multipart/form-data" method="post">
                 <!-- 用隐藏域向服务器传送文章的d -->
                 <input type="hidden" name="id" value="{$artInfo.id}">
-                
+                <input type="hidden" name="user_id" value="{$artInfo.user_id}">
                 <div class="form-group">
                     <label for="title">标题</label>
                     <input type="text" name="title" class="form-control" id="title" value="{$artInfo.title}">
@@ -28,7 +28,7 @@
                 </textarea>                   
                 </div>
 
-                <img src="\uploads\{$artInfo.title_img}" width="100" class="img-rounded">
+                <img src="__STATIC__\image\{$artInfo.title_img}" width="100" class="img-rounded">
                 <div class="form-group">
                     <label for="title_img">标题图片</label>
                     <input type="file" name="title_img" id="title_img">
@@ -39,7 +39,7 @@
             </form>
 
 
-            {load href="/static/nicedit/nicEdit.js" /}
+            {load href="__STATIC__/nicedit/nicEdit.js" /}
 
             <script type="text/javascript">
               var editor = $('#editor')
@@ -48,7 +48,7 @@
                 bkLib.onDomLoaded(function()
                 {
                 new nicEditor({
-                    iconsPath : '/static/nicedit/nicEditorIcons.gif'
+                    iconsPath : '__STATIC__/nicedit/nicEditorIcons.gif'
                 }).panelInstance('editor')
                 })
               }

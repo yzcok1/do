@@ -1,15 +1,15 @@
 <?php 
 namespace app\admin\common\controller;
 use think\Controller;
-use think\Request;
-use think\Session;
+use think\facade\Request;
+use think\facade\Session;
 use app\admin\common\model\Site;
 
 //后台公共控制器
 class Base extends Controller 
 {
 	// 初始化
-    protected function _initialize()
+    protected function initialize()
     {
         
     }

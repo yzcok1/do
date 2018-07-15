@@ -1,0 +1,27 @@
+<!doctype html>
+  <html>
+  <head>
+  <meta charset="UTF-8">
+  <title>验证码示例</title>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  </head>
+  <body>
+  <h2>验证码示例</h2>
+  <FORM method="post" class="form" action="{:url('check')}">
+  输入验证码：<INPUT type="text" class="text" name="code"><br/>
+  <div><img src="{:captcha_src()}" alt="captcha" /></div>
+  <INPUT type="submit" class="btn" value=" 提交 ">
+  </FORM>
+      <div class="copyright">
+          <a title="官方网站" href="http://www.thinkphp.cn">ThinkPHP</a> 
+          <span>V5</span> 
+          <span>{ 十年磨一剑-为API开发设计的高性能框架 }</span>
+      </div>
+  </body>
+  </html>
+
+<script>
+    $("#captcha_image").click(function(){
+        $(this).find('img').attr('src','/captcha?r='+Math.random());
+    });
+</script>

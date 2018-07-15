@@ -4,9 +4,8 @@ namespace app\admin\controller;
 use app\admin\common\controller\Base;
 use app\admin\common\model\Article as ArtModel;
 use app\admin\common\model\Cate;
-
-use think\Request;
-use think\Session;
+use think\facade\Request;
+use think\facade\Session;
 
 class Article extends Base
 {
@@ -27,8 +26,8 @@ class Article extends Base
     	$this->isLogin();
 
     	//2.获取当前用户id 和用户级别
-    	$userId = Session::instance()->get('user_id');
-    	$isAdmin = Session::instance()->get('is_admin');
+    	$userId = Session::get('user_id');
+    	$isAdmin = Session::get('is_admin');
 
     	//3.获取当前用户发布的文章
     	$artList = ArtModel::where('user_id', $userId)->paginate(5);
@@ -53,7 +52,7 @@ class Article extends Base
 	public function artEdit()
 	{
 		//1.获取要编辑的文章主键
-		$artId = Request::instance()->param('id');
+		$artId = Request::param('id');
 
 		//2.根据主键查询到需要更新的用户全部信息
 		$artInfo = ArtModel::where('id',$artId)->find();
@@ -75,37 +74,49 @@ class Article extends Base
 	public function doEdit()
      {   
         //1.获取表单提交的数据
-        $data = Request::instance()->param();
-
+        $data = Request::param();
+		//halt($data);
+		$res = $this->validate($data, 'app\common\validate\Article');
+            if (true !== $res) {
+                //验证不能过
+               // echo '<script>alert("'.$res.'")</script>';
+				$this->error($res,'artList');
+            } else {
         //2.获取上传的标题图片信息
-        $file = Request::instance()->file('title_img'); //获取file对象
-
+        $file = Request::file('title_img'); //获取file对象
+		if($file){
         //3.文件信息验证与上传到服务器指定目录
         $info = $file -> validate([
-            'size'=>5000000000,  //文件大小
+			'size'=>5000000000,  //文件大小
             'ext'=>'jpeg,jpg,png,gif'  //文件扩展名
-        ]) -> move('uploads/');  //移动到public/uploads目录下面
-
-        //4.判断上传文件的信息
-        if ($info) {
+        ]) -> move('static/image');  //移动到public/uploads目录下面
+		
+		if ($info) {
             $data['title_img'] = $info->getSaveName();
         } else {
             $this->error($file->getError());
-        }
-
+		}
+			} 
+		/* else{
+			//$this->error('没有选择图片');
+		} */
+        //4.判断上传文件的信息
+        
+		
         //5.将数据写到文档表中
         if(ArtModel::update($data)){ //条件中$data['id']中
             $this->success('文章更新成功','artList');
         } else {
             $this->error('文章更新失败');
         }
+			}
      }
 
      //执行文章删除操作
      public function doDelete()
      {
      	//1. 获取要删除的文章ID
-     	$artId = Request::instance()->param('id');
+     	$artId = Request::param('id');
 
      	//2.执行删除操作并判断是否成功
      	if(ArtModel::destroy($artId)){

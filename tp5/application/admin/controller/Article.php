@@ -4,7 +4,7 @@ namespace app\admin\controller;
 use app\admin\common\controller\Base;
 use app\admin\common\model\Article as ArtModel;
 use app\admin\common\model\Cate;
-
+use think\validate;
 use think\facade\Request;
 use think\facade\Session;
 

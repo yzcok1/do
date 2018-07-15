@@ -10,8 +10,20 @@
 // +----------------------------------------------------------------------
 
 // [ 应用入口文件 ]
+namespace think;
+//加上下面这一句话，用于自动加载QueryList
+define('PUBLIC_PATH', __DIR__ . '/vendor/');
 
-// 定义应用目录
-define('APP_PATH', __DIR__ . '/../application/');
-// 加载框架引导文件
-require __DIR__ . '/../thinkphp/start.php';
+
+
+// define('SITE_URL', 'http://127.0.0.1/tp5');
+
+ 
+// 加载基础文件
+require __DIR__ . '/../thinkphp/base.php';
+
+// 支持事先使用静态方法设置Request对象和Config对象
+
+// 执行应用并响应
+Container::get('app')->run()->send();
+

@@ -4,8 +4,8 @@ namespace app\index\controller;
 use app\common\controller\Base;  //导入公共控制器
 use app\common\model\User as UserModel; //导入自定义模型并取别名
 use app\common\validate\User as UserValidate; 
-use think\Request;  //导入请求静态代理
-use think\Session;  //导入SESSION静态代理
+use think\facade\Request;  //导入请求静态代理
+use think\facade\Session;  //导入SESSION静态代理
 
 class User extends Base 
 {
@@ -25,7 +25,7 @@ class User extends Base
 		//前端提交的必须是Ajax请求再进行验证与新增操作
 		if(Request::isAjax()){
 			//1.数据验证
-			$data = Request::instance()->post();  //要验证的数据
+			$data = Request::post();  //要验证的数据
 			$rule = 'app\common\validate\User';  //自定义的验证器
 
 			//开始验证: $res 中保存错误信息,成功返回true
@@ -64,12 +64,11 @@ class User extends Base
 	public function loginCheck()
 	{		
 		//前端提交的必须是Ajax请求再进行验证与新增操作
-		if(Request::instance()->isAjax()){
-
+		if(Request::isAjax()){
 			//1.数据验证
-			$data = Request::instance()->post();  //要验证的数据
-			// halt($data); //查询获取到的数据
-			$rule = ['email|邮箱'=>'require|email','password|密码'=>'require|alphaNum'];  //自定义的验证器
+			$data = Request::post();  //要验证的数据
+			//halt($data); //查询获取到的数据
+			$rule = ['email|邮箱'=>'require|email','password|密码'=>'require|alphaNum','verify|验证码'=>'require'];  //自定义的验证器
 
 			//开始验证: $res 中保存错误信息,成功返回true
 			$res=$this->validate($data,$rule);
@@ -78,13 +77,20 @@ class User extends Base
 		  		return ['status'=> -1, 'message'=>$res];
 		  	}else { //验证成功
 		  		//2. 查询数据表zh_user中,并对结果进行判断
+				//return ['status'=>1, 'message'=>sha1($data['password'])];
 		  		$result = UserModel::get(
 		  			function($query) use ($data){
 		  			$query->where('email',$data['email'])
 		  				  ->where('password',sha1($data['password']));
 		  		}
-		  	);
-		  		// halt($result); //测试查询结果
+		  	);	
+		  		 //halt($result); //测试查询结果
+				
+				$captcha = $data['verify'];
+				if(!captcha_check($captcha)){
+					return ['status'=> -1, 'message'=>'验证码不正确'];
+				}
+				
 		  		if(null == $result){
 		  			return ['status'=>0, 'message'=>'邮箱或密码不正确,请检查~~'];
 				} else{
