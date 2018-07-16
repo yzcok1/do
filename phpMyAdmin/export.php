@@ -438,10 +438,10 @@ do {
             if ((isset($tmp_select) && strpos(' ' . $tmp_select, '|' . $current_db . '|'))
                 || ! isset($tmp_select)) {
                 if (!PMA_exportDBHeader($current_db)) {
-                    break 2;
+                    break ;
                 }
                 if (!PMA_exportDBCreate($current_db)) {
-                    break 2;
+                    break ;
                 }
                 if (function_exists('PMA_exportRoutines') && strpos($GLOBALS['sql_structure_or_data'], 'structure') !== false && isset($GLOBALS['sql_procedure_function'])) {
                     PMA_exportRoutines($current_db);
@@ -587,7 +587,7 @@ do {
         // triggers can modify already imported tables)
         if ($GLOBALS[$what . '_structure_or_data'] == 'structure' || $GLOBALS[$what . '_structure_or_data'] == 'structure_and_data') {
             if (!PMA_exportStructure($db, $table, $crlf, $err_url, $do_relation, $do_comments, $do_mime, $do_dates, 'triggers', $export_type)) {
-                break 2;
+                break ;
             }
         }
         if (!PMA_exportDBFooter($db)) {

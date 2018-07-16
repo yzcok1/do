@@ -1,4 +1,4 @@
-<?php /*a:6:{s:71:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\user\login.html";i:1531356616;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1531270657;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1531356616;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530929840;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\right.html";i:1531356616;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1531356616;}*/ ?>
+<?php /*a:6:{s:71:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\user\login.html";i:1531708297;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\base.html";i:1531270657;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\header.html";i:1531356616;s:72:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\nav.html";i:1530929840;s:74:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\right.html";i:1531356616;s:75:"D:\myphp_www\PHPTutorial\WWW\tp5\application/index/view\public\\footer.html";i:1531356616;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -162,6 +162,7 @@
               window.location.href = "<?php echo url('index/index'); ?>";
             break;
             case 0:  //失败或验证不通过返回登录页
+			
             case -1:
               alert(data.message);
               window.location.back();

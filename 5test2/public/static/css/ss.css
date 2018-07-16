@@ -1,0 +1,16 @@
+
+.img_wrapper img{
+
+background-size:contain|cover;
+
+width:100%;
+
+height: auto;
+
+padding:10px 0px 10px 0px   ;
+}
+$('#myAffix').affix({
+ offset : {
+ top : 200
+ }
+})

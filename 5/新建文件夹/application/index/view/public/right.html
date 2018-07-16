@@ -1,0 +1,17 @@
+<!-- 右侧4列 -->
+	
+		<div class="col-md-4 "   >
+			<div class="page-header"> <h3>热门浏览</h3> </div> 
+			<!-- 列表使用:列表组来做 -->
+			<div class="list-group">
+				{volist name="hotArtList" id="art" }
+					<a href="{:url('detail',['id'=>$art.id])}" class="list-group-item
+						{eq name="$i" value="1"}active{/eq}">{:mb_substr(strip_tags($art.title),0,20)}
+						<span class="badge">
+						{$art.pv}
+						</span>
+					</a>
+				{/volist}
+			</div>
+		</div>
+		
